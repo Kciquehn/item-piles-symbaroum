@@ -1,0 +1,32 @@
+{
+  "total": 1356,
+  "byModule": {
+    "Symbaroum - Thistle Hold - Wrath of the Warden": 141,
+    "Symbaroum Adventure Collection": 211,
+    "Symbaroum Core Rulebook": 609,
+    "Symbaroum Game Master's Guide": 70,
+    "Symbaroum Monster Codex": 325
+  },
+  "byType": {
+    "armor": 277,
+    "equipment": 579,
+    "weapon": 500
+  },
+  "packsRead": {
+    "symbaroum-corerules": {
+      "symbaroum-core-rules": 1
+    },
+    "symbaroum-adventure-collection": {
+      "symbaroum-adventure-collection": 1
+    },
+    "symbaroum-monstercodex": {
+      "symbaroum-monster-codex": 1
+    },
+    "symbaroum-tot-wotw": {
+      "symbaroum-wrath-of-the-warden": 1
+    },
+    "symbaroum-gmg": {
+      "symbaroum-gmg": 1
+    }
+  }
+}

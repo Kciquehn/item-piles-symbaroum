@@ -1,0 +1,749 @@
+# Itens vendaveis de Symbaroum
+
+Total unico: 737
+
+## armor (129)
+
+- Animal Skin
+- Animal Skin
+- Armor
+- Armor-like Skin
+- Armored*
+- Aura
+- Bark
+- Bark
+- Bark-like hide
+- Bear Fur
+- Bear Pelt
+- Bear Skin
+- Bear Skin (in beast form)
+- Black Gown
+- Blessed Robe
+- Blessed Robe
+- Blight Hardened Flesh
+- Carapace Plates
+- Chain Mail
+- Chainmail
+- Chainmail
+- Chainmail Armor
+- Chitin Shell
+- Chitin Shields
+- Chitin Shields
+- Clothes
+- Concealed Armor - 50 thaler
+- Concealed Armor - 50 thaler
+- Crow Armor
+- Crow Armor
+- Daemon Skin
+- Double Chainmail - 125 thaler
+- Double Chainmail - 125 thaler
+- Elk Hide
+- Field Armor - 50 thaler
+- Field Armor - 50 thaler
+- Field Armor of the Pansars - 250 thaler
+- Field Armor of the Pansars - 250 thaler
+- Fortified  Chainmail - 125 thaler
+- Fortified Chainmail
+- Frozen Skin
+- Full Plate
+- Full Plate
+- Full Plate with a rune covered  breast plate
+- Glowing Heavy Chainmail
+- Glowing, Oozing, Full Plate
+- Hard Shell
+- Hardened Leather
+- Heavy Armor
+- Hide
+- Hide  (in beast form)
+- Lacquered Silk Cuirass
+- Lacquered Silk Cuirass
+- Laminated Armor - 25 thaler
+- Laminated Armor
+- Lather Armor
+- Leather
+- Leather Apron
+- Leather Armor
+- Leather Cuirass
+- Leather Gown
+- Leather Harness
+- Leather Jacket
+- Leathery hide
+- Leathery Hide
+- Leathery Skin
+- Light Armor
+- Lizard Scales
+- Marlit Skin
+- Mastercrafted Order Cloak
+- Mastercrafted Order Robes
+- Medium Armor
+- Mummified Skin
+- Order Cloak
+- Order Cloak
+- Protective Amulet
+- Robust Feathers
+- Robust Hide
+- Rough bark-like skin
+- Rough Hide
+- Rough Skin
+- Scale Armor
+- Scalemail
+- Scalemail
+- Scales
+- Scales
+- Scales
+- Scaly Skin
+- Shell
+- Skald’s Cuirass - 50 thaler
+- Skin
+- Slimy Skin
+- Smouldering Scalemail
+- Snake Scales
+- Snake Skin
+- Sooty Templar Full Plate (Holy)
+- Stone Armor
+- Stone Hard Body
+- Stony skin
+- Studded Leather
+- Studded Leather Armor
+- Swine Skin
+- Tailored Leather
+- Templar Full Plate - 100 thaler
+- Templar Full Plate
+- Templar Full Plate (Holy)
+- The Haganor Skin
+- Thick Bark
+- Thick Fur
+- Thick Hide
+- Thick Skin
+- Thick Skin
+- Tight Leather
+- Tough Bark
+- Tough Daemon Hide
+- Tough Flesh
+- Tough Skin
+- Tough Skin
+- Troll Skin
+- Troll Skin
+- Warty Skin
+- Witch Gown
+- Witch Gown
+- Wolf Hide
+- Wolf Skin
+- Wolf Skin
+- Woven Silk
+- Woven Silk
+- Wrath Armor - 100 thaler
+
+## equipment (403)
+
+- "Lucky Dice"
+- A Leather Braid
+- Aged Sherry - 3 shillings
+- Alchemical Mine - Moderate - 4 thaler
+- Alchemical Mine - Strong - 8 thaler
+- Alchemical Mine - Weak - 2 thaler
+- Ale-porridge with Butter - 2 shillings
+- Aloéna's Amulet
+- Animal Mask - 10 thaler
+- Arm bracelet - 1 thaler
+- Arrow - Armor-piercing Head - 5 shillings
+- Arrow - Flame - 5 shillings
+- Arrow - Grappling Hook - 5 shillings
+- Arrow - Hammer Head - 5 shillings
+- Arrow - Precision - 5 shillings
+- Arrow - Rope Cutter - 5 shillings
+- Arrow - Snaring - 5 shillings
+- Arrow - Swallow’s Tail - 5 shillings
+- Arrow - Whistler - 2 shillings
+- Arrows/Bolts - Regular - 1 thaler
+- Artifact Catalogue - 10 thaler
+- Artisan tool - 1 thaler
+- Artisan’s garb - 5 shillings
+- Backpack - 1 thaler
+- Bagpipe - 1 thaler
+- Bandages - 5 ortegs
+- Barbecued Young-boar with Beats - 6 shillings
+- Bark Mask - 10 thaler
+- Barrel - 4 ortegs
+- Barrvalg’s Cauldron
+- Basket - 2 ortegs
+- Bear trap - 5 shillings
+- Bedroll - 5 ortegs
+- Belt pouch
+- Belt pouch - 5 ortegs
+- Belt pouch - 5 ortegs
+- Bestiary - 10 thaler
+- Birch-bark Horn - 1 shillings
+- Black Root - 6 ortegs
+- Blanket - 2 ortegs
+- Blood Shrouding - Ritual Book
+- Blood-soup with Dark Bread - 5 ortegs
+- Blue Drops
+- Book of Prayers
+- Boots - 1 shilling
+- Bottle of Blot (mulled wine) - 3 thaler
+- Bottle of Ludendrink (mulled wine) - 2 thaler
+- Bottle of of Vearra’s Red (simple wine) - 2 thaler
+- Bottle of Red Wine (unspecified) - 1 thaler
+- Bottle of Southern Slopes (from Alberetor) - 15 thaler
+- Bottle of White Wine (unspecified) - 1 thaler
+- Brass bell - 6 shillings
+- Brass Horn - 1 thaler
+- Break Link - Ritual Book
+- Buckler
+- Bunefer's Death Mask
+- Burgher’s garb - 1 thaler
+- Burial Shroud - 10 thaler
+- Buttered Walleye with Mash - 22 shillings
+- Cabbage Pie - 1 shilling
+- Cabbage Stew - 3 ortegs
+- Can of Vesa - 4 ortegs
+- Candied Ginger - 1 shillings
+- Cap - 2–4 ortegs
+- Cardamom, one box
+- Cartographer’s Instruments - 10 thaler
+- Chain - 1 thaler
+- Cheating Kit - 10 thaler
+- Chewable resin
+- Chewing Tobacco, one box - 6 ortegs
+- Choking Spores - 2 thaler
+- Cinnamon, one box - 1 thaler
+- Clay Pipe - 3 shillings
+- Clay pitcher - 5 ortegs
+- Climbing equipment - 1 thaler
+- Climbing Gear - 10 thaler
+- Cloak - 2–6 ortegs
+- Cloak - 2–6 ortegs
+- Clove, one box - 7 ortegs
+- Coat - 5–10 ortegs
+- Coin purse - 3 ortegs
+- Concentrated Magic - 1 thaler
+- Cooking pan - 1 orteg
+- Copper, one bar - 5 shillings
+- Cotton Fabric, one roll - 1 thaler
+- Crayons - 1 orteg
+- Crude alchemical equipment,
+- Cumin, one box - 5 ortegs
+- Death Mask - 10 thaler
+- Decorated box - 2–5 thaler
+- Desdemorgos Icosahedron
+- Dice Set - 1 shilling
+- Dice Set - 1 orteg
+- Disguise Kit - 10 thaler
+- Dream Snuff
+- Dress - 1–10 shillings
+- Drinking horn - 2 ortegs
+- Drone Dew - 4 thaler
+- Drone Spores - 5 thaler
+- Drum - 3 shillings
+- Eamon's Bell
+- Elemental Essence - 2 thaler
+- Elemental Essence (Acid) - 2 thaler
+- Eli's Troll Flute
+- Elixir of Life - 6 thaler
+- Excavation Tools - 10 thaler
+- Eye Drops - 2 thaler
+- Feather Veil
+- Feud Crystal
+- Fiddle - 3 thaler
+- Field equipment - 5 shillings
+- Field Laboratory - 10 thaler
+- Field Library - 10 thaler
+- Field Smithy - 10 thaler
+- Field Surgeon’s Instrument Kit - 10 thaler
+- Fire Dye
+- Fire Dye - 1 thaler
+- Firetube Charges
+- Firewood - 2 ortegs
+- Fish & Turnips - 1 shilling
+- Fish Pie - 5 shillings
+- Fish Sauce & Crispbread - 5 ortegs
+- Fishing line and hook - 3 ortegs
+- Fishing net - 1 shilling
+- Flagellant whip
+- Flash Powder - 1 thaler
+- Flint and steel - 2 ortegs
+- Flute - 3 shillings
+- Flute - 2 shillings
+- Forgery Kit - 10 thaler
+- Fried Pastry - 2 ortegs
+- Fruit Pie - 1 thaler
+- Fruit Pudding - 1 orteg
+- Fruit Sherbet - 7 thaler
+- Fruit Tea - 1 shillings
+- Fruit Tobacco, one box - 4 ortegs
+- Fuglomaru's Liar Fire
+- Fullangra's Chest
+- Garrotes
+- Ghastly Mask - 5–10 ortegs
+- Ghost Candle - 2 thaler
+- Ginger, one box - 5 ortegs
+- Glass vial - 1 shilling
+- Gold, one bar - 500 thaler
+- Gown - 1–5 ortegs
+- Grain, one sack - 2 shillings
+- Grappling hook - 1 thaler
+- Hack Tray (cheese and meats) - 3 shillings
+- Hafmuul's Transformation Garments
+- Hammer - 1 thaler
+- Hash Patties with Turnips - 2 shillings
+- Hat - 2–4 ortegs
+- Hat - 2–4 ortegs
+- Headband of rusty Iron
+- Healing Spider - 4 thaler
+- Herbal Cure - 1 thaler
+- Herbal Tea - 2 ortegs
+- Herbal Tobacco, one box - 2 shillings
+- Holy Symbol
+- Holy Water - 2 thaler
+- Homing Arrow - 2 thaler
+- Homunculus - 2 thaler (Black market only)
+- Honey-roasted Sorrel - 3 shillings
+- Honey, one jar - 1 shilling
+- Horn - 4 ortegs
+- Hour glass - 4 thaler
+- Hunting Traps - 5 shillings
+- Hurdy-gurdy - 3 thaler
+- Ice Cream & Fruit - 2 ortegs
+- Ink and feather - 1 shilling
+- Interrogation Tools
+- Interrogation Tools - 1 thaler
+- Iron Crown - 10 thaler
+- Iron Oak Tea - 8 ortegs
+- Iron, one bar - 1 thaler
+- Jewelry & Trinkets - 1D10 thaler
+- Jug of Liquor - 3 thaler
+- Kidney Pie - 2 shillings
+- King’s Steak in Gravy - 8 shillings
+- Knapsack - 1 shilling
+- Ladder - 7 ortegs
+- Lamp oil - 1 orteg
+- Lantern - 4 ortegs
+- Large Chest - 1 thaler
+- Lightbringer
+- Lockpicks - 1 thaler
+- Long-stemmed Seafoam Pipe - 1 thaler
+- Longbottom Leaf, one box - 8 shillings
+- Lucky charm
+- Lucky Charm - 1D10 thaler
+- Lucky Coin - 8 thaler
+- Lute - 15 shillings
+- Mal-Rogan's Mummified Hand
+- Mal-Rogan's Mummified Hand
+- Map of the Area
+- Marlit Cape - 4 thaler
+- Marmalade Confectionery - 3 shillings
+- Marzipan Figurines - 5 shillings
+- Mask - 5–10 ortegs
+- Mask - 5–10 ortegs
+- Meat & Beats - 8 ortegs
+- Meat Pie - 2 shillings
+- Mechanical Trap - Moderate - 2 thaler
+- Mechanical Trap - Strong - 3 thaler
+- Mechanical Trap - Weak - 1 thaler
+- Meeting Stone - 2 thaler
+- Mind Prism - 10 thaler
+- Mining pick - 5 shilling
+- Mint, one box - 5 ortegs
+- Mixed Stew - 5 ortegs
+- Moderate  Purple Sap - 8 thaler
+- Moderate Antidote - 2 thaler
+- Moderate Poison - 4 thaler
+- Moderate Transforming Draught - 4 thaler (Black market only)
+- Monster Mask - 5–10 ortegs
+- Monster Trophy
+- Mouth Harp - 5 shillings
+- Multicolored Robes - 1–5 shillings
+- Mushroom Pie - 4 shillings
+- Mystical Focus - 12 thaler
+- Necklace
+- Needle and thread - 1 orteg
+- Nema' Orbit Statue
+- Noble’s garb - 10+ thaler
+- Note Book
+- Nougat Confectionery - 2 ortegs
+- Nuts in Chocolate - 1 orteg
+- Offal Pie - 4 shillings
+- Oil (vegetable), one earthen - 5 ortegs
+- Okran's Ring
+- Onion Soup with Crispbread - 4 ortegs
+- Order Medallion - 2 thaler
+- Order Medallion
+- Owl Mask
+- Pants - 1–5 ortegs
+- Paper - 3 ortegs
+- Parchment - 2 ortegs
+- Peatro's Flask
+- Pest Mask - 8 thaler
+- Pipe and Tobacco - 2–5 thaler
+- Pixie Dust
+- Pocket mirror - 7 thaler
+- Poison Manual - 10 thaler
+- Protective Amulet
+- Protective Oil - 2 thaler
+- Quiver - 1 shilling
+- Quiver - 1 shilling
+- Quiver (Poisoned) - 1 shilling
+- Rasthuul's Spirit Vessel
+- Rattle Wand
+- Revealing Light - 2 thaler
+- Ring of rusty iron
+- Ritual Codex - 4 thaler
+- Ritual Codex  (Exchange Shadow, Desecrating Rite, Possess)
+- Ritual Codex for The Exaltation Ritual - 500 thaler
+- Ritual Focus - 8 thaler
+- Ritual Seal - 12 thaler
+- Ritual Seal (Seven-league Stride) - 12 thaler
+- Robe - 1–5 shillings
+- Robe - 1–5 shillings
+- Roka Berries, one box - 12 ortegs
+- Roka Sausage with Mashed Beats - 12 shillings
+- Root Vegetable Stew - 4 ortegs
+- Rope - 1 shilling
+- Rope ladder - 3 shillings
+- Rough Bark Mask - 5–10 ortegs
+- Ruler’s Ring - 10 thaler
+- Rune Staff - 12 thaler
+- Runefala Roots
+- Sack - 2 ortegs
+- Saffron, one box - 50 thaler
+- Salt, one sack - 1 shillings
+- Salted Herring with Turnips - 5 shillings
+- Salty-sweet Needles - 5 ortegs
+- Scarf - 1–2 ortegs
+- Scrolls (on area of expertise)
+- Scythe - 1 thaler
+- Shackles and Chains
+- Shadow Tint - 3 thaler (Black market only)
+- Shirt - 1–4 ortegs
+- Shovel - 3 shilling
+- Silk, one roll - 50 thaler
+- Silver Coins
+- Silver, one bar - 50 thaler
+- Simple garb - 1 shilling
+- Skirt - 5–10 ortegs
+- Slave collar
+- Sledgehammer - 1 thaler
+- Slow-roast with Stewed Carrot - 5 shillings
+- Small Chest - 3 shillings
+- Smelling Salts - 2 thaler
+- Smelling Snuff, one box - 2 thaler
+- Smoke Bomb - 2 thaler
+- Smoke Tube - 5 ortegs
+- Smoked Tea - 4 ortegs
+- Snares - 3 shillings
+- Snow shoes - 5 shillings
+- Snuff Box - 1 shilling
+- Soap - 5 ortegs
+- Spark Stone - 10 thaler
+- Spell Scroll - 2/4/6 thaler
+- Spell Seal - 8/12 thaler
+- Spice Tea - 1 orteg
+- Spices, one box - 3 ortegs
+- Spicy Cream-porridge - 1 thaler
+- Spinet - 15 thaler
+- Spirit Friend - 12 thaler
+- Spore Bomb - 3 thaler
+- Spy glass - 10 thaler
+- Staff Foot - 10 thaler
+- Staff Head - 10 thaler
+- Storm Arrows - 1 thaler
+- Straw Doll
+- Strong Antidote - 3 thaler
+- Strong Poison - 6 thaler
+- Strong Purple Sap - 12 thaler
+- Strong Transforming Draught - 4 thaler (Black market only)
+- Stuffed Lung with Black Mash - 4 shillings
+- Stun Bolt - 1 thaler
+- Sugar-coated Rose Petals - 5 ortegs
+- Sugar, one sack - 1 thaler
+- Suicide Ampoule
+- Sun mask
+- Sun Mask - 10 thaler
+- Sun Symbol
+- Symbol of Dead Prios
+- Table Ale (watered stut) - 1 orteg
+- Tankard - 1 orteg
+- Tankard Adersel (triple fermented ale) - 8 shillings
+- Tankard Argona (fine stut) - 2 shillings
+- Tankard Blackbrew (unspecified) - 1 orteg
+- Tankard Kurun’s Honor (triple fermented) - 5 shillings
+- Tankard Stut (unspecified) - 3 ortegs
+- Tankard The Duke’s Relief (simple stut) - 1 shilling
+- Tankard Urtal (triple fermented red ale) - 3 shillings
+- Tankard Veloum (barbarian must) - 2 shillings
+- Tankard Zarekian Blackbrew - 1 shilling
+- Tar, one barrel - 5 shillings
+- Templar Symbol
+- Tent - 3 shillings
+- Terato’s Draught
+- Terato’s Draugtht
+- Terrasma's Yondermirror
+- The Bell of Kastor
+- The Blessing Gong of Malikander
+- The Cloak of the Sewer Queen
+- The Eye
+- The Eye Stone of Palamukk
+- The Inner Nature of the Abomination - 2 ortegs
+- The Iron Pact Ring
+- The Lantern of Salamandra
+- The Lightbringer
+- The Living Chain of Hogarz
+- The Map of Argond the Wanderer
+- The Queen Mother's Banner
+- The Soul Stone - 100 thaler
+- The Stone of Resurrection
+- The Sun Stone
+- The Sun Stone
+- The Vile Water
+- The War Horn of the Stormhowler
+- The Whispering Necklace of Lapi-Esha
+- The Wraith Mark of the Eternity Legion
+- Thorn Beasties - 4 thaler (Black market only)
+- Thunder Ball - 3 thaler
+- Toad Guard - 1 thaler
+- Tome of Ceremonies
+- Torch - 1 orteg
+- Torn rags - 5 ortegs
+- Transcendental ­Weapon - 12 thaler
+- Trapper’s Manual - 10 thaler
+- Trout Pie - 8 shillings
+- Trout Pudding with Turnips - 15 shillings
+- Truffle-buttered Biscuit - 5 ortegs
+- Truth Serum
+- Tunic - 2–7 ortegs
+- Turmeric, one box - 1 orteg
+- Twilight Tincture - 12 thaler
+- Vinegar, one earthen - 1 shilling
+- Waffles with Butter and Honey - 3 shillings
+- War Paint - 2 thaler
+- Water of Dusk
+- Watered Porridge - 4 ortegs
+- Waterskin - 3 shillings
+- Wax candle - 4 ortegs
+- Waybread - 1 thaler
+- Weak Antidote - 1 thaler
+- Weak Antidote Candle - 6 thaler
+- Weak Poison - 2 thaler
+- Weak Poison - 2 thaler
+- Weak Purple Sap - 4 thaler
+- Weak Transforming Draught - 2 thaler (Black market only)
+- Weapon maintenance kit - 5 shillings
+- Whetstone - 4 ortegs
+- Whistle - 2 shillings
+- Wild Chew - 1 thaler
+- Wine Skin - 3 shillings
+- Witch Braid - 8 thaler
+- Wooden Figurine
+- Wooden Pipe - 5 shillings
+- Worn copy of The Lightbringer (the holy book)
+- Wraith Dust - 2 thaler
+- Xtala's Hourglass
+
+## weapon (205)
+
+- Alchemical Firetube, Portable - 10 thaler
+- Alchemical Firetube, Portable - 10 thaler
+- Alchemical Firetube, Stationary - 250 thaler
+- Alchemical Grenade - 1 thaler
+- Antlers
+- Arbalest
+- Ashiki’s Twin Blades
+- Assassin’s Blade - 5 thaler
+- Axe
+- Axe
+- Axe
+- Ballista - 50 thaler
+- Bastard Sword, one hand grip
+- Bastard Sword, one hand grip
+- Bastard Sword, two-handed grip
+- Bastard Sword, two-handed grip
+- Battle claw
+- Battle claw
+- Beak
+- Bear Claws (in beast form)
+- Bite
+- Bite
+- Bite (Paralyzing Venom)
+- Black Spikes
+- Blessed Warhammer
+- Blowpipe - 2 thaler
+- Bolas - 2 thaler
+- Bone Crafts
+- Bone Nails
+- Bow
+- Bow
+- Breaching (Pot on ground) - 100 thaler
+- Breaching Pot (buried) - 100 thaler
+- Bull Horns
+- Burning Embrace
+- Burning Sword
+- Burnreaper Throwing Axe
+- Carved Wooden Staff
+- Catapult - 250 thaler +50 per Breaching Pot
+- Chain Staff - 15 thaler
+- Chain with Hook
+- Claws
+- Claws
+- Claws
+- Claws
+- Claws
+- Claws
+- Composite Bow - 25 thaler
+- Crossbow
+- Crossbow
+- Crow’s Beak
+- Crowbar
+- Curved Bone Sword
+- Dagger
+- Dagger
+- Dead Touch (Ignores Armor)
+- Double Axe
+- Double Axe
+- Double-axe
+- Drowning
+- Elven Throwing Axe
+- Estoc - 25 thaler
+- Executioner’s Sword
+- Executioner’s Sword - 50 thaler
+- Executioner’s Sword - 50 thaler
+- Executioners Axe
+- Fangs
+- Fencing Sword
+- Fencing Sword
+- Fists
+- Fists and Bottles
+- Flail
+- Flail
+- Flail of Light
+- Flaying Branches
+- Ghost Claws
+- Girakosh's Steel Circle
+- Glowing Sword
+- Gnarled Branches
+- Gnawing mandibles
+- Grappling Axe - 50 thaler
+- Grappling Claws
+- Hagmandara's Bow of Vengance
+- Halberd
+- Halberd
+- Hammer Fists
+- Head butt
+- Heavy flail
+- Heavy Flail - 50 thaler
+- Heavy Sword
+- Heavy weapon
+- Heavy weapon
+- Heavy Weapon (ignores Armor)
+- Hoofs
+- Horns
+- Horror Slash
+- Horseman’s Bow - 50 thaler
+- Ice Nails
+- Iloona's Mirror Shield
+- Karitian Battle claw
+- Knife
+- Lance (on Horse) - 15 thaler
+- Lance (on Horse) - 15 thaler
+- Lance (two-handed) - 15 thaler
+- Life-consuming Kiss
+- Long Weapon
+- Long-hammer (single handed) - 50 thaler
+- Long-hammer (two-handed) - 50 thaler
+- Long-hammer (two-handed) - 50 thaler
+- Long-Whip - 10 thaler
+- Long-Whip - 10 thaler
+- Longbow
+- Longbow
+- Mandibles
+- Master Crafted Bastard Sword
+- Master Crafted Bastard Sword
+- Master Crafted Fencing Sword
+- Master Crafted Sword
+- Mastercrafted Dagger
+- Mastercrafted Sword
+- Missile Battery - 200 thaler +50 per charge
+- Mycelial threads (piercing 4)
+- Nagmira's Thunder Hammer
+- Oozing Double-axe
+- Parrying Dagger
+- Parrying Dagger
+- Paws
+- Pike
+- Portable Firetube (Melee) - 50 thaler
+- Quarterstaff
+- Quarterstaff
+- Razor Sharp Thorns
+- Repeating Crossbow - 40 thaler
+- Ritual Dagger
+- Rusty Sword
+- Scalpel
+- Sharp Fangs
+- Shield
+- Shield
+- Sling
+- Small Crossbow - 40 thaler
+- Souleater Warhammer
+- Spear
+- Spear Sling
+- Spiked club
+- Spiked club
+- Staff
+- Steel shield
+- Steel shield
+- Stiletto
+- Stiletto
+- Sting (piercing 4)
+- Stinger
+- Stinger (piercing 5)
+- Strangling
+- Sturdy Branches
+- Sun Axe
+- Sweeping attack
+- Sword
+- Sword
+- Sword- tipped headbutt
+- Sword, two-handed grip
+- Talons
+- Tentacles
+- The Battle Axe Hunger
+- The Dagger Black Edge
+- The Dagger Black Edge
+- The Eternal Hunter's Spear
+- The Keepers Staff
+- The Serpent Staff of Opadia
+- The Sword Black Gift
+- The Sword Black Gift
+- The Troll Cross of Ella
+- The War Club Soul’s Bane
+- Thorny Branches
+- Throwing axe
+- Throwing knife
+- Throwing knife
+- Throwing Spear
+- Throwing Wing - 10 thaler
+- Thunder, The Long-hammer - 50 thaler
+- Touch of death
+- Touch of Death
+- Trebuchet - 1250 thaler
+- Tusks
+- Tusks
+- Tusks
+- Tusks
+- Tusks
+- Tusks (in beast form)
+- Two Handed Hammer
+- Two-handed Sword
+- Unarmed Attack
+- Unarmed Attack (8 attacks)
+- Unarmed combat
+- Unarmed combat
+- Walking Staff
+- War Axe
+- Warhammer - 50 thaler
+- Wooden Club
+- Wooden Staff
+- Worldcleaver
+- Wraith Blade
+- Wraith Claws
+- Yarego's Iron Fist

@@ -1,0 +1,9 @@
+node_modules/
+.codex/
+.agents/
+.env
+.env.*
+npm-debug.log*
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
