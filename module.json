@@ -4,7 +4,7 @@
   "description": "A Symbaroum-focused version of Item Piles for dropping, looting, trading, and merchant workflows.",
   "version": "1.0.0",
   "url": "https://github.com/Kciquehn/item-piles-symbaroum",
-  "manifest": "https://github.com/Kciquehn/item-piles-symbaroum/releases/latest/download/module.json",
+  "manifest": "https://raw.githubusercontent.com/Kciquehn/item-piles-symbaroum/refs/heads/main/module.json",
   "download": "https://github.com/Kciquehn/item-piles-symbaroum/releases/latest/download/item-piles-symbaroum.zip",
   "library": false,
   "compatibility": {
