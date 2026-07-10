@@ -30,7 +30,7 @@
 	$: {
 		columns = [
 			{
-				label: "Name",
+				label: "Nome",
 				component: CategoryHeader
 			},
 			...$itemColumns.slice(1)
@@ -39,7 +39,7 @@
 
 </script>
 <div class="item-piles-flexrow">
-	<input bind:value={$searchStore} placeholder="Type to search..." type="text">
+	<input bind:value={$searchStore} placeholder="Buscar..." type="text">
 	{#if categoryDropDown.length > 1}
 		<select style="flex:0 1 auto; margin-left: 0.4rem; height: 26px;" bind:value={$typeFilterStore}>
 			<option value="all">{localize("ITEM-PILES.Merchant.AllTypes")}</option>

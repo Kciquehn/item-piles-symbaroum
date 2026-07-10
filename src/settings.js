@@ -48,6 +48,20 @@ export async function applySoftMigration(migrationKey) {
 export async function patchCurrencySettings() {
 	const currencies = Helpers.getSetting(SETTINGS.CURRENCIES);
 	for (let currency of currencies) {
+		if (game.system.id === "symbaroum" && currency.type === "attribute") {
+			if (currency.data?.path === "system.money.thaler") {
+				currency.name = "Táler";
+				currency.abbreviation = "{#}T";
+			}
+			if (currency.data?.path === "system.money.shilling") {
+				currency.name = "Xelim";
+				currency.abbreviation = "{#}x";
+			}
+			if (currency.data?.path === "system.money.orteg") {
+				currency.name = "Ortega";
+				currency.abbreviation = "{#}O";
+			}
+		}
 		if (currency.type !== "item" || !currency.data.uuid || currency.data.item) continue;
 		const item = await foundry.utils.fromUuid(currency.data.uuid);
 		if (!item) continue;
@@ -170,7 +184,11 @@ export async function patchItemGroups() {
 				search: defaultGroup.search,
 				minCost: defaultGroup.minCost,
 				maxCost: defaultGroup.maxCost,
-				includeNoCost: defaultGroup.includeNoCost
+				includeNoCost: defaultGroup.includeNoCost,
+				maxItems: defaultGroup.maxItems,
+				minQuantity: defaultGroup.minQuantity,
+				maxQuantity: defaultGroup.maxQuantity,
+				chance: defaultGroup.chance
 			};
 			changed = changed || JSON.stringify(group) !== JSON.stringify(syncedGroup);
 			return syncedGroup;

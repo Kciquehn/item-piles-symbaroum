@@ -3,10 +3,12 @@ import {
 	SYMBAROUM_OFFICIAL_ITEM_CATEGORIES_BY_ID,
 	SYMBAROUM_OFFICIAL_ITEM_CATEGORIES_BY_NAME
 } from "../data/symbaroum-official-item-categories.js";
+import SYMBAROUM_ITEM_GROUPS from "../data/symbaroum-item-groups.js";
 
 const DEFAULT_TRADE_CATEGORY = "scrap-trade-goods";
 const TRADEABLE_TYPES = new Set(["armor", "equipment", "weapon", "artifact"]);
 const UNIQUE = CONSTANTS.UNIQUE_ITEM_CATEGORY;
+const GROUP_LABELS = Object.fromEntries(SYMBAROUM_ITEM_GROUPS.map(group => [group.id, group.name]));
 
 const LEGACY_CATEGORY_MAP = {
 	weapons: ["weapons-common"],
@@ -177,6 +179,15 @@ export function getSymbaroumItemCategories(item) {
 
 export function getSymbaroumItemCategory(item) {
 	return getSymbaroumItemCategories(item)[0] ?? UNIQUE;
+}
+
+export function getSymbaroumItemCategoryLabel(category) {
+	if (category === UNIQUE) return "Único/Não Comerciável";
+	return GROUP_LABELS[category] ?? category;
+}
+
+export function getSymbaroumItemCategoryLabels(categories) {
+	return uniqueCategories(normalizeCategoryValue(categories)).map(getSymbaroumItemCategoryLabel);
 }
 
 export function isUniqueSymbaroumItem(item) {

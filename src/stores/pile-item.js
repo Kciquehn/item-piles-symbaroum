@@ -9,6 +9,7 @@ import { SYSTEMS } from "../systems.js";
 import * as CompendiumUtilities from "../helpers/compendium-utilities.js";
 import * as Helpers from "../helpers/helpers.js";
 import SETTINGS from "../constants/settings.js";
+import { getSymbaroumItemCategoryLabels } from "../helpers/symbaroum-item-categories.js";
 
 class PileBaseItem {
 
@@ -183,7 +184,7 @@ export class PileItem extends PileBaseItem {
 					? itemFlagData.customCategory
 					: [itemFlagData.customCategory];
 				cat.type = String(categories[0]).toLowerCase();
-				cat.label = categories.join(", ");
+				cat.label = getSymbaroumItemCategoryLabels(categories).join(", ");
 			} else if (cat.service && pileData.enabled && pileData.type === CONSTANTS.PILE_TYPES.MERCHANT) {
 				cat.type = "item-piles-service";
 				cat.label = "ITEM-PILES.Merchant.Service";

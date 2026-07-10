@@ -150,10 +150,49 @@
 		}));
 	}
 
+	const DEFAULT_STOCK_QUANTITY_RANGES = {
+		"weapons-common": [1, 3],
+		"weapons-quality": [1, 2],
+		"weapons-siege": [1, 1],
+		"weapons-alchemical": [1, 2],
+		"armor-common": [1, 3],
+		"armor-quality": [1, 2],
+		"elixirs-common": [1, 8],
+		"elixirs-quality": [1, 3],
+		"artifacts-major": [1, 1],
+		"artifacts-minor": [1, 2],
+		"curiosities": [1, 3],
+		"scrap-trade-goods": [1, 15],
+		"specialist-tools": [1, 6],
+		"traps": [1, 4],
+		"traps-mechanical": [1, 4],
+		"traps-alchemical": [1, 3],
+		"instruments-kits": [1, 8],
+		"survival-expedition": [1, 15],
+		"containers": [1, 10],
+		"food": [1, 15],
+		"drink": [1, 15],
+		"tobacco-utensils": [1, 10],
+		"musical-instruments": [1, 2],
+		"clothing": [1, 8],
+		"spices": [1, 12],
+		"monster-trophies": [1, 4],
+		"transport-vehicles": [1, 1],
+		"animals-derived": [1, 6],
+		"buildings-domains": [1, 1],
+		"medical": [1, 12]
+	};
+
+	function getDefaultStockQuantityRange(pool) {
+		return DEFAULT_STOCK_QUANTITY_RANGES[pool.groupId] ?? DEFAULT_STOCK_QUANTITY_RANGES[pool.id] ?? [1, 6];
+	}
+
 	function randomQuantity(pool) {
-		const min = Math.max(Number(pool.minQuantity) || 1, 1);
-		const max = Math.max(Number(pool.maxQuantity) || min, min);
-		return Math.floor(Math.random() * (max - min + 1)) + min;
+		const [defaultMin, defaultMax] = getDefaultStockQuantityRange(pool);
+		const min = Math.max(Number(pool.minQuantity) || defaultMin, 1);
+		const max = Math.max(Number(pool.maxQuantity) || defaultMax, min);
+		if (max === min) return min;
+		return Math.round((rollInteger(min, max) + rollInteger(min, max)) / 2);
 	}
 
 	function rollInteger(min, max) {
@@ -169,6 +208,30 @@
 		if (!Number.isFinite(min) || !Number.isFinite(max)) return null;
 		const amount = rollInteger(Math.min(min, max), Math.max(min, max));
 		return `${amount} ${match[3].toLowerCase()}`;
+	}
+
+	function rollStockPriceModifier() {
+		const roll = Math.random();
+		if (roll < 0.2) return 0.85 + Math.random() * 0.1;
+		if (roll > 0.9) return 1.05 + Math.random() * 0.1;
+		return 1;
+	}
+
+	function randomizeSymbaroumFixedPrice(price) {
+		const source = String(price ?? "").trim();
+		const match = source.match(/^(\d+(?:[.,]\d+)?)\s*(t[aÃ¡á]ler(?:es)?|thaler(?:s)?|xelim(?:s)?|shilling(?:s)?|ortega(?:s)?|orteg(?:s)?)$/i);
+		if (!match) return null;
+		const amount = Number(match[1].replace(",", "."));
+		if (!Number.isFinite(amount) || amount <= 0) return null;
+		const modifier = rollStockPriceModifier();
+		if (modifier === 1) return null;
+		const adjusted = Math.max(1, Math.round(amount * modifier));
+		if (adjusted === amount) return null;
+		return `${adjusted} ${match[2].toLowerCase()}`;
+	}
+
+	function randomizeSymbaroumStockPrice(price) {
+		return randomizeSymbaroumPriceRange(price) ?? randomizeSymbaroumFixedPrice(price);
 	}
 
 	function shuffleItems(items) {
@@ -260,7 +323,7 @@
 						: null;
 				const itemData = item ?? foundry.utils.deepClone(sourceItem.itemData);
 				if (!itemData) continue;
-				const randomizedPrice = randomizeSymbaroumPriceRange(sourceItem.cost ?? foundry.utils.getProperty(itemData, game.itempiles.API.ITEM_PRICE_ATTRIBUTE));
+				const randomizedPrice = randomizeSymbaroumStockPrice(sourceItem.cost ?? foundry.utils.getProperty(itemData, game.itempiles.API.ITEM_PRICE_ATTRIBUTE));
 				const generatedItemData = randomizedPrice && item instanceof Item
 					? item.toObject()
 					: itemData;

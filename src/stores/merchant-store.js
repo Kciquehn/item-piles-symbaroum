@@ -145,12 +145,12 @@ export default class MerchantStore extends ItemPileStore {
 		const columns = [];
 
 		columns.push({
-			label: "Type", component: ItemEntry
+			label: "Tipo", component: ItemEntry
 		});
 
 		if (pileData.displayQuantity !== "alwaysno") {
 			columns.push({
-				label: "Quantity", component: QuantityColumn, sortMethod: (a, b, inverse) => {
+				label: "Quantidade", component: QuantityColumn, sortMethod: (a, b, inverse) => {
 					if (!Utilities.isItemStackable(a.item)) {
 						return -1;
 					}
@@ -161,7 +161,7 @@ export default class MerchantStore extends ItemPileStore {
 
 		columns.push(...customColumns)
 		columns.push({
-			label: "Price", component: PriceSelector, sortMethod: (a, b, inverse) => {
+			label: "Preço", component: PriceSelector, sortMethod: (a, b, inverse) => {
 				const APrice = get(a.prices).find(price => price.primary);
 				const BPrice = get(b.prices).find(price => price.primary);
 				if (!APrice) return 1;
@@ -178,7 +178,7 @@ export default class MerchantStore extends ItemPileStore {
 
 		const sortTypes = columns.filter(col => col.label);
 
-		sortTypes.splice(1, 0, { label: "Name" });
+		sortTypes.splice(1, 0, { label: "Nome" });
 
 		this.sortTypes.set(sortTypes)
 

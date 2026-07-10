@@ -50,7 +50,7 @@ const SYMBAROUM_MERCHANT_CATEGORIES = [
 		pool("armor-quality", { maxItems: 5, chance: 45 })
 	]),
 	category("generic-expedition-supplier", "Fornecedor de expedicao", "Suprimentos de viagem, ferramentas, recipientes e armadilhas para exploracao de ruinas e florestas.", [
-		pool("survival-expedition", { maxItems: 18, minQuantity: 1, maxQuantity: 6 }),
+		pool("survival-expedition", { maxItems: 18, minQuantity: 1, maxQuantity: 15 }),
 		pool("specialist-tools", { maxItems: 8, chance: 75 }),
 		pool("instruments-kits", { maxItems: 6, chance: 60 }),
 		pool("containers", { maxItems: 8 }),
@@ -58,7 +58,7 @@ const SYMBAROUM_MERCHANT_CATEGORIES = [
 		pool("medical", { maxItems: 5, chance: 60 })
 	]),
 	category("generic-alchemist", "Alquimista e boticario", "Ervas, elixires, venenos e preparos alquimicos de risco variavel.", [
-		pool("elixirs-common", { maxItems: 12, minQuantity: 1, maxQuantity: 4 }),
+		pool("elixirs-common", { maxItems: 12, minQuantity: 1, maxQuantity: 8 }),
 		pool("elixirs-quality", { maxItems: 5, minQuantity: 1, maxQuantity: 2, chance: 45 }),
 		pool("weapons-alchemical", { maxItems: 4, chance: 35 }),
 		pool("traps-alchemical", { maxItems: 4, chance: 35 }),
@@ -66,36 +66,36 @@ const SYMBAROUM_MERCHANT_CATEGORIES = [
 	]),
 	category("generic-antiquarian", "Antiquario de ruinas", "Curiosidades, detritos de valor incerto, tesouros misticos e artefatos raros.", [
 		pool("curiosities", { maxItems: 12 }),
-		pool("scrap-trade-goods", { maxItems: 10, minQuantity: 1, maxQuantity: 4, chance: 65 }),
+		pool("scrap-trade-goods", { maxItems: 10, minQuantity: 1, maxQuantity: 12, chance: 65 }),
 		pool("artifacts-minor", { maxItems: 3, chance: 25 }),
 		pool("artifacts-major", { maxItems: 1, chance: 8 })
 	]),
 	category("generic-tavern-inn", "Taverna e estalagem", "Comida, bebida, tabaco, pequenos confortos e itens deixados por viajantes.", [
-		pool("food", { maxItems: 10, minQuantity: 1, maxQuantity: 10 }),
-		pool("drink", { maxItems: 10, minQuantity: 1, maxQuantity: 10 }),
-		pool("tobacco-utensils", { maxItems: 6, minQuantity: 1, maxQuantity: 6, chance: 65 }),
+		pool("food", { maxItems: 10, minQuantity: 1, maxQuantity: 15 }),
+		pool("drink", { maxItems: 10, minQuantity: 1, maxQuantity: 15 }),
+		pool("tobacco-utensils", { maxItems: 6, minQuantity: 1, maxQuantity: 10, chance: 65 }),
 		pool("musical-instruments", { maxItems: 3, chance: 30 }),
 		pool("clothing", { maxItems: 4, chance: 35 })
 	]),
 	category("generic-general-store", "Armazem geral", "Mercadorias comuns para povoados, bairros populares e comercio cotidiano.", [
-		pool("survival-expedition", { maxItems: 12, minQuantity: 1, maxQuantity: 6 }),
+		pool("survival-expedition", { maxItems: 12, minQuantity: 1, maxQuantity: 15 }),
 		pool("containers", { maxItems: 6 }),
-		pool("food", { maxItems: 8, minQuantity: 1, maxQuantity: 10 }),
-		pool("drink", { maxItems: 6, minQuantity: 1, maxQuantity: 10 }),
+		pool("food", { maxItems: 8, minQuantity: 1, maxQuantity: 15 }),
+		pool("drink", { maxItems: 6, minQuantity: 1, maxQuantity: 15 }),
 		pool("clothing", { maxItems: 6 }),
-		pool("scrap-trade-goods", { maxItems: 8, minQuantity: 1, maxQuantity: 8, chance: 70 })
+		pool("scrap-trade-goods", { maxItems: 8, minQuantity: 1, maxQuantity: 15, chance: 70 })
 	]),
 	category("generic-luxury-merchant", "Mercador de luxo", "Roupas caras, instrumentos, especiarias, tecidos e curiosidades para clientes ricos.", [
 		pool("clothing", { minCost: 2, maxItems: 8 }),
-		pool("spices", { minCost: 2, maxItems: 8, minQuantity: 1, maxQuantity: 6 }),
-		pool("scrap-trade-goods", { minCost: 2, maxItems: 8, minQuantity: 1, maxQuantity: 6 }),
+		pool("spices", { minCost: 2, maxItems: 8, minQuantity: 1, maxQuantity: 12 }),
+		pool("scrap-trade-goods", { minCost: 2, maxItems: 8, minQuantity: 1, maxQuantity: 15 }),
 		pool("curiosities", { minCost: 5, maxItems: 6 }),
 		pool("musical-instruments", { maxItems: 5, chance: 55 }),
 		pool("artifacts-minor", { maxItems: 2, chance: 20 })
 	]),
 	category("generic-monster-hunter", "Mercador de trofeus e partes", "Compra e venda de trofeus, partes de criaturas e insumos perigosos para alquimia.", [
-		pool("monster-trophies", { maxItems: 12, minQuantity: 1, maxQuantity: 5 }),
-		pool("animals-derived", { maxItems: 8, minQuantity: 1, maxQuantity: 5 }),
+		pool("monster-trophies", { maxItems: 12, minQuantity: 1, maxQuantity: 4 }),
+		pool("animals-derived", { maxItems: 8, minQuantity: 1, maxQuantity: 6 }),
 		pool("survival-expedition", { maxItems: 6, chance: 50 })
 	]),
 	category("generic-transport-builder", "Transporte e construcoes", "Veiculos, transporte, carga, materiais e propriedades para campanhas de dominio.", [
@@ -103,7 +103,7 @@ const SYMBAROUM_MERCHANT_CATEGORIES = [
 		pool("animals-derived", { maxItems: 6, chance: 55 }),
 		pool("containers", { maxItems: 6 }),
 		pool("buildings-domains", { maxItems: 4, chance: 35 }),
-		pool("scrap-trade-goods", { maxItems: 8, minQuantity: 1, maxQuantity: 10 })
+		pool("scrap-trade-goods", { maxItems: 8, minQuantity: 1, maxQuantity: 15 })
 	]),
 	category("generic-black-market", "Mercado clandestino", "Itens ilegais, perigosos, raros ou vendidos sem muitas perguntas.", [
 		pool("weapons-quality", { maxItems: 8, chance: 70 }),
@@ -138,7 +138,7 @@ const SYMBAROUM_MERCHANT_CATEGORIES = [
 		pool("scrap-trade-goods", { maxItems: 8, chance: 55 })
 	]),
 	category("official-drogaria-taler", "A Drogaria do Taler", "Alquimia, pocoes, venenos, antidotos e componentes medicinais.", [
-		pool("elixirs-common", { maxItems: 14, minQuantity: 1, maxQuantity: 4 }),
+		pool("elixirs-common", { maxItems: 14, minQuantity: 1, maxQuantity: 8 }),
 		pool("elixirs-quality", { maxItems: 6, chance: 45 }),
 		pool("medical", { maxItems: 8 }),
 		pool("weapons-alchemical", { maxItems: 3, chance: 35 })

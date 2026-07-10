@@ -201,7 +201,7 @@ export default class ChatAPI {
 
 	static async _outputMerchantTradeComplete(source, target, priceInformation, userId, interactionId) {
 		if (!Helpers.getSetting(SETTINGS.OUTPUT_TO_CHAT)) return;
-		if (!PileUtilities.isItemPileMerchant(source)) return;
+		if (!PileUtilities.isItemPileMerchant(source) && !PileUtilities.isItemPileMerchant(target)) return;
 		if (!interactionId || game.user.id !== userId || !Helpers.getSetting(SETTINGS.OUTPUT_TO_CHAT)) return;
 		return ItemPileSocket.executeAsGM(ItemPileSocket.HANDLERS.MERCHANT_TRADE_CHAT_MESSAGE, source.uuid, target.uuid, priceInformation, userId, interactionId);
 	}
@@ -473,18 +473,24 @@ export default class ChatAPI {
 			}
 		}
 
-		const pileData = PileUtilities.getActorFlagData(sourceActor);
+		const sourceIsMerchant = PileUtilities.isItemPileMerchant(sourceActor);
+		const merchantActor = sourceIsMerchant ? sourceActor : targetActor;
+		const customerActor = sourceIsMerchant ? targetActor : sourceActor;
+		const pileData = PileUtilities.getActorFlagData(merchantActor);
+		const message = sourceIsMerchant
+			? game.i18n.format("ITEM-PILES.Chat.MerchantTraded", {
+				name: customerActor.name,
+				merchant: merchantActor.name
+			})
+			: `${customerActor.name} vendeu os seguintes itens para ${merchantActor.name}:`;
 
 		const chatCardHtml = await foundry.applications.handlebars.renderTemplate(CONSTANTS.PATH + "templates/chat/merchant-traded.html", {
-			message: game.i18n.format("ITEM-PILES.Chat.MerchantTraded", {
-				name: targetActor.name,
-				merchant: sourceActor.name
-			}),
+			message,
 			merchant: {
-				name: sourceActor.name,
-				img: pileData.merchantImage || sourceActor.img
+				name: merchantActor.name,
+				img: pileData.merchantImage || merchantActor.img
 			},
-			actor: targetActor,
+			actor: customerActor,
 			priceInformation: [priceInformation]
 		});
 
@@ -618,18 +624,24 @@ export default class ChatAPI {
 			})
 			.concat([incomingPriceInformation].filter(priceInformation => priceInformation.buyerReceive.length));
 
-		const pileData = PileUtilities.getActorFlagData(sourceActor);
+		const sourceIsMerchant = PileUtilities.isItemPileMerchant(sourceActor);
+		const merchantActor = sourceIsMerchant ? sourceActor : targetActor;
+		const customerActor = sourceIsMerchant ? targetActor : sourceActor;
+		const pileData = PileUtilities.getActorFlagData(merchantActor);
+		const messageText = sourceIsMerchant
+			? game.i18n.format("ITEM-PILES.Chat.MerchantTraded", {
+				name: customerActor.name,
+				merchant: merchantActor.name
+			})
+			: `${customerActor.name} vendeu os seguintes itens para ${merchantActor.name}:`;
 
 		const chatCardHtml = await foundry.applications.handlebars.renderTemplate(CONSTANTS.PATH + "templates/chat/merchant-traded.html", {
-			message: game.i18n.format("ITEM-PILES.Chat.MerchantTraded", {
-				name: targetActor.name,
-				merchant: sourceActor.name
-			}),
+			message: messageText,
 			merchant: {
-				name: sourceActor.name,
-				img: pileData.merchantImage || sourceActor.img
+				name: merchantActor.name,
+				img: pileData.merchantImage || merchantActor.img
 			},
-			actor: targetActor,
+			actor: customerActor,
 			priceInformation: newPriceInformation
 		});
 

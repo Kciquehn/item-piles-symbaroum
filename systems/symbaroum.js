@@ -1,6 +1,6 @@
 export default {
 
-	"VERSION": "1.0.3",
+	"VERSION": "1.0.5",
 
 	// The actor class type is the type of actor that will be used for the default item pile actor that is created on first item drop.
 	"ACTOR_CLASS_TYPE": "monster",
@@ -52,7 +52,7 @@ export default {
 			type: "attribute",
 			name: "Xelim",
 			img: "icons/commodities/currency/coins-assorted-mix-silver.webp",
-			abbreviation: "{#}S",
+			abbreviation: "{#}x",
 			data: {
 				path: "system.money.shilling",
 			},
@@ -72,7 +72,7 @@ export default {
 		}
 	],
 
-	// Symbaroum stores item costs as free text. Normalize common coin formats to the primary currency, Thaler.
+	// Symbaroum stores item costs as free text. Normalize common coin formats to the primary currency, Táler.
 	"ITEM_COST_TRANSFORMER": (item, currencies, priceAttribute) => {
 		const itemData = item?.toObject ? item.toObject() : item;
 		let rawCost = foundry.utils.getProperty(itemData, priceAttribute)
@@ -97,6 +97,7 @@ export default {
 			taleres: 1,
 			táler: 1,
 			táleres: 1,
+			x: 0.1,
 			s: 0.1,
 			shilling: 0.1,
 			shillings: 0.1,
