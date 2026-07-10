@@ -1,6 +1,6 @@
 {
   "name": "item-piles-symbaroum",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Symbaroum-focused version of Item Piles for Foundry VTT.",
   "license": "MIT",
   "private": false,
@@ -40,6 +40,7 @@
     "not IE 11"
   ],
   "scripts": {
+    "prebuild": "node tools/patch-typhonjs-keyboard-manager.mjs",
     "build": "vite build",
     "dev": "vite"
   }

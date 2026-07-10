@@ -4,6 +4,7 @@
 	import { ApplicationShell } from "#runtime/svelte/component/application";
 	import { get } from "svelte/store";
 	import * as PileUtilities from "../../../helpers/pile-utilities.js";
+	import { custom_warning } from "../../../helpers/helpers.js";
 	import PriceSelector from "../../components/PriceSelector.svelte";
 
 	const { application } = getContext('#external');
@@ -62,19 +63,26 @@
 	async function submit() {
 		if(submitted) return;
 		submitted = true;
-		const result = await game.itempiles.API.tradeItems(seller, buyer, [{
-			item: item.item,
-			paymentIndex: get(selectedPriceGroup),
-			quantity: get(quantityToBuy),
-		}], {
-			interactionId: store.interactionId
-		});
-		if(!result){
+		try {
+			const result = await game.itempiles.API.tradeItems(seller, buyer, [{
+				item: item.item,
+				paymentIndex: get(selectedPriceGroup),
+				quantity: get(quantityToBuy),
+			}], {
+				interactionId: store.interactionId
+			});
+			if(!result){
+				submitted = false;
+				custom_warning("A venda nao foi concluida.", true);
+				return;
+			}
+			application.options.resolve?.();
+			application.close();
+		} catch (err) {
 			submitted = false;
+			custom_warning(err?.message ?? "A venda nao foi concluida.", true);
 			return;
 		}
-		application.options.resolve();
-		application.close();
 	}
 
 </script>
