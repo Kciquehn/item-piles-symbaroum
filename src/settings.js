@@ -7,6 +7,7 @@ import { TJSDialog } from "#runtime/svelte/application";
 import CustomDialog from "./applications/components/CustomDialog.svelte";
 import SYMBAROUM_MERCHANT_CATEGORIES from "./data/symbaroum-merchant-categories.js";
 import SYMBAROUM_ITEM_GROUPS from "./data/symbaroum-item-groups.js";
+import { getDefaultSymbaroumItemCategories } from "./helpers/symbaroum-item-categories.js";
 
 export function registerSettings() {
 
@@ -58,6 +59,7 @@ export async function patchCurrencySettings() {
 export async function patchMerchantItemCategories() {
 	const categories = Helpers.getSetting(SETTINGS.MERCHANT_ITEM_CATEGORIES, []);
 	const categoryIds = new Set((Array.isArray(categories) ? categories : []).map(category => category.id));
+	const defaultIds = new Set(SYMBAROUM_MERCHANT_CATEGORIES.map(category => category.id));
 	const hasOnlyOldGenericDefaults = categoryIds.size === 3
 		&& categoryIds.has("armorer")
 		&& categoryIds.has("weaponsmith")
@@ -71,18 +73,42 @@ export async function patchMerchantItemCategories() {
 		"mercado-brejonegro"
 	].some(id => categoryIds.has(id));
 	const hasPreviousGenericDefaults = [
+		"generic-weapons",
 		"generic-simple-weapons",
 		"generic-complete-arms",
 		"generic-armorer",
+		"generic-expedition-supplier",
 		"generic-alchemist",
+		"generic-antiquarian",
+		"generic-tavern-inn",
+		"generic-general-store",
+		"generic-luxury-merchant",
+		"generic-monster-hunter",
 		"generic-transport-builder"
 	].some(id => categoryIds.has(id));
 
-	if (Array.isArray(categories) && categories.length && !hasOnlyOldGenericDefaults && !hasOfficialStoreDefaults && !hasPreviousGenericDefaults) return;
+	if (Array.isArray(categories) && categories.length && !hasOnlyOldGenericDefaults && !hasOfficialStoreDefaults && !hasPreviousGenericDefaults) {
+		const mergedCategories = foundry.utils.deepClone(categories);
+		let changed = false;
+		for (const defaultCategory of SYMBAROUM_MERCHANT_CATEGORIES) {
+			if (categoryIds.has(defaultCategory.id)) continue;
+			mergedCategories.push(foundry.utils.deepClone(defaultCategory));
+			changed = true;
+		}
+		if (!changed) return;
+		return Helpers.setSetting(SETTINGS.MERCHANT_ITEM_CATEGORIES, mergedCategories);
+	}
+
+	const customCategories = Array.isArray(categories)
+		? categories.filter(category => category?.id && !defaultIds.has(category.id))
+		: [];
 
 	return Helpers.setSetting(
 		SETTINGS.MERCHANT_ITEM_CATEGORIES,
-		foundry.utils.deepClone(SYMBAROUM_MERCHANT_CATEGORIES)
+		[
+			...foundry.utils.deepClone(SYMBAROUM_MERCHANT_CATEGORIES),
+			...customCategories
+		]
 	);
 }
 
@@ -149,6 +175,14 @@ export async function patchItemGroups() {
 			changed = changed || JSON.stringify(group) !== JSON.stringify(syncedGroup);
 			return syncedGroup;
 		});
+		const syncedGroupIds = new Set(syncedGroups
+			.filter(group => typeof group === "object" && group?.id)
+			.map(group => group.id));
+		for (const defaultGroup of SYMBAROUM_ITEM_GROUPS) {
+			if (syncedGroupIds.has(defaultGroup.id)) continue;
+			syncedGroups.push(foundry.utils.deepClone(defaultGroup));
+			changed = true;
+		}
 		if (!changed) return;
 		return Helpers.setSetting(SETTINGS.CUSTOM_ITEM_CATEGORIES, syncedGroups);
 	}
@@ -213,6 +247,43 @@ export async function patchItemGroups() {
 	}
 
 	return Helpers.setSetting(SETTINGS.CUSTOM_ITEM_CATEGORIES, defaultGroups);
+}
+
+export async function patchWorldItemCategories() {
+	if (game.system.id !== "symbaroum" || !game.user.isGM) return;
+
+	const updates = [];
+	for (const item of game.items ?? []) {
+		const currentValue = foundry.utils.getProperty(item, CONSTANTS.FLAGS.CUSTOM_CATEGORY)
+			?? foundry.utils.getProperty(item, `flags.${CONSTANTS.MODULE_NAME}.item.customCategory`);
+		const currentCategories = Array.isArray(currentValue)
+			? currentValue.filter(Boolean)
+			: currentValue ? [currentValue] : [];
+		const defaultCategories = getDefaultSymbaroumItemCategories(item);
+		const currentIsOnlyUnique = currentCategories.length === 1
+			&& currentCategories[0] === CONSTANTS.UNIQUE_ITEM_CATEGORY;
+		const defaultIsUnique = defaultCategories.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY);
+		const hasLegacyCategory = currentCategories.some(category => [
+			"weapons",
+			"armor",
+			"alchemy-elixirs",
+			"survival-gear",
+			"animals"
+		].includes(category));
+		const shouldUpdate = !currentCategories.length || hasLegacyCategory || (currentIsOnlyUnique && !defaultIsUnique);
+		if (!shouldUpdate) continue;
+
+		updates.push(item.update({
+			[CONSTANTS.FLAGS.CUSTOM_CATEGORY]: defaultCategories,
+			[`${CONSTANTS.FLAGS.ITEM}.notForSale`]: defaultIsUnique,
+			[`${CONSTANTS.FLAGS.ITEM}.cantBeSoldToMerchants`]: defaultIsUnique
+		}));
+	}
+
+	await Promise.all(updates);
+	if (updates.length) {
+		Helpers.custom_notify(`Item Piles: Symbaroum categorizou ${updates.length} itens do mundo.`);
+	}
 }
 
 export function applySystemSpecificStyles(data = false) {

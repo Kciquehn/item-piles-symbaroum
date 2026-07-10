@@ -5,7 +5,10 @@
 	import * as Helpers from "../../../helpers/helpers.js";
 	import SETTINGS from "../../../constants/settings.js";
 	import CONSTANTS from "../../../constants/constants.js";
-	import { getSymbaroumItemCategory } from "../../../helpers/symbaroum-item-categories.js";
+	import {
+		getSymbaroumItemCategories,
+		itemHasSymbaroumCategory
+	} from "../../../helpers/symbaroum-item-categories.js";
 
 	const { application } = getContext("#external");
 
@@ -128,7 +131,7 @@
 		const selectedItems = new Set(sourceGroup.selectedItems ?? []);
 		if (sourceGroup.manualSelection || sourceGroup.selectedItems?.length) {
 			return getWorldItems()
-				.filter(item => item.customCategory !== CONSTANTS.UNIQUE_ITEM_CATEGORY)
+				.filter(item => !item.customCategories?.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY))
 				.filter(item => selectedItems.has(item.uuid) || itemMatchesGroup(item, sourceGroup))
 				.length;
 		}
@@ -139,8 +142,8 @@
 		return foundry.utils.getProperty(item, game.itempiles.API.ITEM_PRICE_ATTRIBUTE) ?? "";
 	}
 
-	function getWorldItemCustomCategory(item) {
-		return getSymbaroumItemCategory(item);
+	function getWorldItemCustomCategories(item) {
+		return getSymbaroumItemCategories(item);
 	}
 
 	function getWorldItems() {
@@ -149,7 +152,7 @@
 			type: item.type,
 			cost: getWorldItemCost(item),
 			reference: foundry.utils.getProperty(item, "system.reference") ?? "",
-			customCategory: getWorldItemCustomCategory(item),
+			customCategories: getWorldItemCustomCategories(item),
 			folderId: item.folder?.id ?? "",
 			uuid: item.uuid
 		}));
@@ -167,16 +170,11 @@
 	}
 
 	function itemMatchesGroup(item, group) {
-		if (item.customCategory === CONSTANTS.UNIQUE_ITEM_CATEGORY) return false;
-		if (item.customCategory) {
-			const category = item.customCategory.toLowerCase();
-			return category === String(group.id ?? "").toLowerCase()
-				|| category === String(group.name ?? "").toLowerCase()
-				|| (Array.isArray(group.customCategories) && group.customCategories.some(entry => category === String(entry).toLowerCase()));
-		}
+		if (item.customCategories?.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY)) return false;
+		if (item.customCategories?.length) return itemHasSymbaroumCategory(item, group);
 		if (Array.isArray(group.itemTypes) && group.itemTypes.length && !group.itemTypes.includes(item.type)) return false;
 		if (Array.isArray(group.customCategories) && group.customCategories.length) {
-			if (!item.customCategory || !group.customCategories.some(category => category.toLowerCase() === item.customCategory.toLowerCase())) return false;
+			if (!item.customCategories?.length || !itemHasSymbaroumCategory(item, group)) return false;
 		}
 		const folderIds = getAllowedWorldFolderIds(group);
 		if (folderIds && item.folderId !== undefined && !folderIds.has(item.folderId)) return false;

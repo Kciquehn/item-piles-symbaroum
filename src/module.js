@@ -9,6 +9,7 @@ import {
 	patchItemGroups,
 	patchCurrencySettings,
 	patchMerchantItemCategories,
+	patchWorldItemCategories,
 	registerSettings
 } from "./settings.js";
 import { registerHotkeysPost, registerHotkeysPre } from "./hotkeys.js";
@@ -147,6 +148,7 @@ Hooks.once(CONSTANTS.HOOKS.READY, async () => {
 			await patchCurrencySettings();
 			await patchItemGroups();
 			await patchMerchantItemCategories();
+			await patchWorldItemCategories();
 			await runMigrations();
 		}
 

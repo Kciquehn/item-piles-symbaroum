@@ -3,7 +3,10 @@
 	import { getContext } from "svelte";
 	import { localize } from "#runtime/util/i18n";
 	import CONSTANTS from "../../../constants/constants.js";
-	import { getSymbaroumItemCategory } from "../../../helpers/symbaroum-item-categories.js";
+	import {
+		getSymbaroumItemCategories,
+		itemHasSymbaroumCategory
+	} from "../../../helpers/symbaroum-item-categories.js";
 
 	const { application } = getContext("#external");
 
@@ -78,8 +81,8 @@
 		return foundry.utils.getProperty(item, game.itempiles.API.ITEM_PRICE_ATTRIBUTE) ?? "";
 	}
 
-	function getWorldItemCustomCategory(item) {
-		return getSymbaroumItemCategory(item);
+	function getWorldItemCustomCategories(item) {
+		return getSymbaroumItemCategories(item);
 	}
 
 	function getWorldItems() {
@@ -88,7 +91,7 @@
 			type: item.type,
 			cost: getWorldItemCost(item),
 			reference: foundry.utils.getProperty(item, "system.reference") ?? "",
-			customCategory: getWorldItemCustomCategory(item),
+			customCategories: getWorldItemCustomCategories(item),
 			img: item.img,
 			uuid: item.uuid,
 			folderId: item.folder?.id ?? "",
@@ -108,16 +111,11 @@
 	}
 
 	function itemMatchesGroup(item, group) {
-		if (item.customCategory === CONSTANTS.UNIQUE_ITEM_CATEGORY) return false;
-		if (item.customCategory) {
-			const category = item.customCategory.toLowerCase();
-			return category === String(group.id ?? "").toLowerCase()
-				|| category === String(group.name ?? "").toLowerCase()
-				|| (Array.isArray(group.customCategories) && group.customCategories.some(entry => category === String(entry).toLowerCase()));
-		}
+		if (item.customCategories?.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY)) return false;
+		if (item.customCategories?.length) return itemHasSymbaroumCategory(item, group);
 		if (Array.isArray(group.itemTypes) && group.itemTypes.length && !group.itemTypes.includes(item.type)) return false;
 		if (Array.isArray(group.customCategories) && group.customCategories.length) {
-			if (!item.customCategory || !group.customCategories.some(category => category.toLowerCase() === item.customCategory.toLowerCase())) return false;
+			if (!item.customCategories?.length || !itemHasSymbaroumCategory(item, group)) return false;
 		}
 		if (Array.isArray(group.sourceModules) && group.sourceModules.length && !group.sourceModules.includes(item.moduleId)) return false;
 		const folderIds = getAllowedWorldFolderIds(group);
@@ -139,16 +137,16 @@
 		const query = search.toLowerCase().trim();
 		return getWorldItems()
 			.filter(item => !type || item.type === type)
-			.filter(item => item.customCategory !== CONSTANTS.UNIQUE_ITEM_CATEGORY)
+			.filter(item => !item.customCategories?.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY))
 			.filter(item => !selected.has(itemKey(item)) && !itemMatchesGroup(item, group))
-			.filter(item => !query || `${item.name} ${item.type} ${item.cost} ${item.customCategory ?? ""}`.toLowerCase().includes(query))
+			.filter(item => !query || `${item.name} ${item.type} ${item.cost} ${(item.customCategories ?? []).join(" ")}`.toLowerCase().includes(query))
 			.slice(0, 500);
 	}
 
 	function getSelectedItems(group) {
 		const selected = new Set(group?.selectedItems ?? []);
 		return getWorldItems()
-			.filter(item => item.customCategory !== CONSTANTS.UNIQUE_ITEM_CATEGORY)
+			.filter(item => !item.customCategories?.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY))
 			.filter(item => selected.has(itemKey(item)) || itemMatchesGroup(item, group));
 	}
 

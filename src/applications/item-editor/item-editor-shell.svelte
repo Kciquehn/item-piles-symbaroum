@@ -41,7 +41,7 @@
 		const flagData = store.export();
 		if (flagData.flags.customCategory) {
 			let customCategories = get(currentCustomCategories);
-			customCategories.push(flagData.flags.customCategory)
+			customCategories.push(...(Array.isArray(flagData.flags.customCategory) ? flagData.flags.customCategory : [flagData.flags.customCategory]));
 			await Helpers.setSetting(SETTINGS.CUSTOM_ITEM_CATEGORIES, Array.from(new Set(customCategories)));
 		}
 		await PileUtilities.updateItemData(item, flagData);

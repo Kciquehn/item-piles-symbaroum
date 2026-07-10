@@ -1,0 +1,644 @@
+﻿ID,Nome EN,Nome PT-BR,Tipo,Pasta/Tabela Foundry,Custo,Categorias
+05VT3YreoU9uZvRl,Rapid Fire,Tiro Rápido,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+iGKtbTcBho8S1DYB,Drone Dew,Orvalho do Zangão,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,4 thaler,elixirs-common
+lQbYxzGToeTiVcSZ,Fire Dye,Tintura de Fogo,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,1 thaler,elixirs-common
+XM6czmSaRpzELcc9,Flash Powder,Pó Luminoso,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,1 thaler,"elixirs-common, weapons-alchemical"
+uy0VQD0YEqTClxQI,Holy Water,Água Benta,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,2 thaler,elixirs-common
+6eDefGOhMG1klpIm,Homing Arrow,Flecha Certeira,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,2 thaler,elixirs-common
+kW6BtBmenR3A2kZZ,Homunculus,Homúnculo,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,2 thaler (Black market only),elixirs-common
+u6aF3ASrTH6Lv3Sg,Moderate  Purple Sap,Seiva Púrpura Moderado,equipment,Symbaroum - Items / Alchemical Elixirs,8 thaler,elixirs-quality
+JRg90yqLc2sUG8tu,Moderate Transforming Draught,Infusão de Transformação Moderado,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,4 thaler (Black market only),elixirs-quality
+ddNROHmucYSRugFt,Revealing Light,Luz Reveladora,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,2 thaler,elixirs-common
+TyMBUQQrO5MeuXQj,Shadow Tint,Tinta Sombria,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,3 thaler (Black market only),elixirs-common
+n9RMXtUSmlR5s1kt,Smoke Bomb,Bomba de Fumaça,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,2 thaler,"elixirs-common, weapons-alchemical"
+DzqRuhB10kh2o77c,Spirit Friend,Amigo Espiritual,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,12 thaler,elixirs-quality
+lNHUxgfYtxTXX1x2,Strong Purple Sap,Seiva Púrpura Forte,equipment,Symbaroum - Items / Alchemical Elixirs,12 thaler,elixirs-quality
+W4KFJAHD3Khp9NR9,Strong Transforming Draught,Infusão de Transformação Forte,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,4 thaler (Black market only),elixirs-quality
+yin0sHNN2cxbA6OW,Stun Bolt,Raio Atordoante,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,1 thaler,elixirs-common
+bIAKxWJDEOPqlJfW,Thorn Beasties,Bestas Espinhosas,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,4 thaler (Black market only),elixirs-common
+51BAcMvLq4qt3NiC,Thunder Ball,Esfera-Trovão,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,3 thaler,elixirs-common
+aByuKLytt4iSNMmO,Twilight Tincture,Tintura Crepuscular,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,12 thaler,elixirs-quality
+EOg5dksOW8o9XgWb,War Paint,Pintura de guerra,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,2 thaler,elixirs-common
+ZLLk8TCTDjplSc2K,Weak Antidote Candle,Vela de Antídoto Fraco,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,6 thaler,"elixirs-quality, medical, weapons-alchemical"
+7XhurynKRenTy1ep,Weak Purple Sap,Seiva Púrpura Fraco,equipment,Symbaroum - Items / Alchemical Elixirs,4 thaler,elixirs-common
+ZVgBJdxdOeBrtyJG,Weak Transforming Draught,Infusão de Transformação Fraco,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,2 thaler (Black market only),elixirs-common
+kAqXBYp2ZhXHw8X8,Wild Chew,Goma Selvagem,equipment,Symbaroum - APG - Items / APG - Alchemical Elixirs,1 thaler,elixirs-common
+0PZpcbG1hH5hacJc,Concealed Armor,Armadura Ocultada,armor,Symbaroum - APG - Items / APG - Armor,50 thaler,armor-quality
+YcYlav4kyKIgNGTk,Double Chainmail,Cota de Malha Dupla,armor,Symbaroum - APG - Items / APG - Armor,125 thaler,armor-quality
+xTpnzN4htCCyKFm6,Field Armor,Armadura de Campo,armor,Symbaroum - APG - Items / APG - Armor,50 thaler,armor-quality
+zszmKV3Acr65Qe2u,Field Armor of the Pansars,Armadura de Campo dos Pansares,armor,Symbaroum - APG - Items / APG - Armor,250 thaler,armor-quality
+qwhX7JJft6niaa74,Laminated Armor,Armadura Laminada,armor,Symbaroum - APG - Items / APG - Armor,25 thaler,armor-quality
+1nmUH2cppHswSt5s,Skald’s Cuirass,Couraça de Escaldo,armor,Symbaroum - APG - Items / APG - Armor,50 thaler,armor-quality
+z9U0960FceLdTXAi,Templar Full Plate,Armadura Completa dos Templários,armor,Symbaroum - APG - Items / APG - Armor,100 thaler,armor-quality
+HTfn52RN93szv97y,Wrath Armor,Armadura da Ira,armor,Symbaroum - APG - Items / APG - Armor,100 thaler,armor-quality
+PjfNwxvHTxvZI6L0,Animal Mask,Máscara Animal,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,"artifacts-minor, curiosities"
+7yCNnUmEmPS4g3PL,Bark Mask,Máscara de Casca,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,"artifacts-minor, curiosities"
+JRLGgeprigmu3UTa,Burial Shroud,Mortalha de Sepultamento,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,artifacts-minor
+TduUp0xpHKB5ZtUs,Death Mask,Máscara da Morte,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,"artifacts-minor, curiosities"
+aoJvGQh4st21UrYR,Healing Spider,Aranha Curativa,equipment,Symbaroum - APG - Items / APG - Artifacts,4 thaler,artifacts-minor
+btOE3I9V6P9S5D6A,Iron Crown,Coroa de Ferro,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,artifacts-minor
+gS4jqIQn47lMBMAt,Lucky Coin,Moeda da Sorte,equipment,Symbaroum - APG - Items / APG - Artifacts,8 thaler,"artifacts-minor, curiosities"
+Aq7XlQZjroTWlC5e,Marlit Cape,Capa Marlit,equipment,Symbaroum - APG - Items / APG - Artifacts,4 thaler,artifacts-minor
+vCw72hzb0SXxf9Bm,Meeting Stone,Pedra do Encontro,equipment,Symbaroum - APG - Items / APG - Artifacts,2 thaler,artifacts-minor
+s3XaQqAGx5AgRvmw,Mind Prism,Prisma Mental,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,artifacts-minor
+zwVNSORtkl6aFYe7,Mystical Focus,Foco Místico,equipment,Symbaroum - APG - Items / APG - Artifacts,12 thaler,artifacts-minor
+FQc0JXhBELk7g9UB,Order Medallion,Medalhão da Ordem,equipment,Symbaroum - APG - Items / APG - Artifacts,2 thaler,"artifacts-minor, curiosities"
+fUWOjyTMydalblNo,Pest Mask,Máscara da Pestilência,equipment,Symbaroum - APG - Items / APG - Artifacts,8 thaler,"artifacts-minor, curiosities"
+MXP7V4g4D5P1IIld,Ritual Codex,Códice de Ritual,equipment,Symbaroum - APG - Items / APG - Artifacts,4 thaler,artifacts-minor
+Qm5eOqoJ4jI5Itob,Ritual Focus,Foco de Ritual,equipment,Symbaroum - APG - Items / APG - Artifacts,8 thaler,artifacts-minor
+6GczcrG0Cvqbul6M,Ritual Seal,Selo de Ritual,equipment,Symbaroum - APG - Items / APG - Artifacts,12 thaler,artifacts-minor
+qt0cjRCUpd9nOfdb,Ruler’s Ring,Anel do Regente,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,artifacts-minor
+bxcZ38u7sA4P0xGh,Rune Staff,Cajado Rúnico,equipment,Symbaroum - APG - Items / APG - Artifacts,12 thaler,"artifacts-minor, weapons-quality"
+A6qU66N0L4BaK2mb,Spark Stone,Pedra da Centelha,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,artifacts-minor
+LDyMhBAiNC6NfQ5X,Spell Scroll,Pergaminho de Magia,equipment,Symbaroum - APG - Items / APG - Artifacts,2/4/6 thaler,artifacts-minor
+1YCV1Dx7Xn8mp13Y,Spell Seal,Selo de Magia,equipment,Symbaroum - APG - Items / APG - Artifacts,8/12 thaler,artifacts-minor
+G0IfGkVf7BAzpAlR,Staff Foot,Pé de Cajado,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,"artifacts-minor, weapons-quality"
+geHAKKHC9ezT3syf,Staff Head,Cabeça de Cajado,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,"artifacts-minor, weapons-quality"
+18wuMCLBPczy6u2o,Sun Mask,Máscara Solar,equipment,Symbaroum - APG - Items / APG - Artifacts,10 thaler,"artifacts-minor, curiosities"
+2zHGthVcgmzztYNb,The Soul Stone,Pedra da Alma,equipment,Symbaroum - APG - Items / APG - Artifacts,100 thaler,artifacts-major
+pAKmQLw1fd7JSoZb,Toad Guard,Guarda Anfíbio,equipment,Symbaroum - APG - Items / APG - Artifacts,1 thaler,artifacts-minor
+wJzbW5PqhiVHYCzb,Transcendental ­Weapon,Arma Transcendental,equipment,Symbaroum - APG - Items / APG - Artifacts,12 thaler,artifacts-minor
+nl35Z5kxHmpCmCF7,Witch Braid,Trança da Bruxa,equipment,Symbaroum - APG - Items / APG - Artifacts,8 thaler,artifacts-minor
+4S16NMYweDojBV38,Absolute Memory,Memória Absoluta,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+Cb65jVIlLD0rGnOo,Addiction,Vício,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+SK1365w9jUgpY12l,Arch Enemy,Arqui-Inimigo,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+clJajWcMDNvy1RSS,Archivist,Arquivista,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+wYbKZQdZQCjdj24b,Augur,Áugure,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+0qxehyEzrCU0t12v,Beast Tongue,Língua das Bestas,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+dc4Tyr3SzkNusUBf,Bestial,Bestial,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+uutdoHvsnVbgtGpp,Blood Ties,Laço de Sangue,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+EZ8l0ngi6yrhSHTK,Bloodhound,Cão de Caça,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+ArcX4SGhsxaCSUfU,Bloodthirst,Sanguinário,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+3hazkHaLTJBauMWg,Cartographer,Cartógrafo,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+fbMU47hqHQWImqP4,Cat Burglar,Gatuno,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+SAqgcROfl04m7o08,Cheat,Trapaceiro,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+tp8T7Zats3wQbyOD,Code of Honor,Código de Honra,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+rgML7K1LiFFEPtfl,Commanding Voice,Voz de Comando,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+FCFywn0tMaNDQxHz,Con Artist,Vigarista,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+5kZCVaFU3AC8vkEm,Dark Blood,Sangue Negro,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+501EuW3cmC4gzZtx,Dark Secret,Segredo Sombrio,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+4p5xJHs51h0gFQ8o,Dexterous,Destro,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+kETkJ7zZ40EqZUkS,Double-tongue,Dupla-Língua,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+oxUqJ10VjrUAiWMJ,Elderly,Ancição,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+tuIImtPwRh9qDP2j,Enduring March,Marcha Duradoura,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+AV46ZzkLOxOeghXL,Enterprise,Empreendimento,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+zIIs3rSdwi8GLg7N,Epileptic,Epilético,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+zTvXqNfD9gwhJfMQ,Escape Artist,Escapista,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+JNX4B7tZP64ZXkGC,False Identity,Identidade Falsa,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+JVS2JYnkGVFY1wqn,Fire Forged,Forjado no Fogo,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+uaCRZ6xXx4Hs9Tji,Fleet-footed,Pés leves,boon,Symbaroum - Items / Traits,,__unique_not_tradeable__
+OZ91yQy5LX1I90v4,Forbidden Knowledge,Conehcimento Proibido,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+GKW6N4tsH6t9rPV7,Gambler,Apostador,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+CSrKmQmQ7GhSgXdZ,Green Thumb,Dedo Verde,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+KEeAf5R4fPE42Dbm,Heirloom,Herança,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+QOpIYK532eilS2wW,Hideouts,Esconderijos,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+1VdMSr4tWVHPvlDq,Horrifying,Horripilante,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+hZMMr8N2FpN6LgeA,Impressionist,Impressionista,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+WCvT3rNOunsCuB6f,Impulsive,Impulsivo,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+dOS7oesrInf2Hg7A,Manipulator,Manipulador,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+bahLD6nsZN12fNQF,Medium,Médium,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+EwcO6Scc4LyMtM4G,Mirage,Miragem,boon,Symbaroum - Items / Boons/Burdens,,__unique_not_tradeable__
+XIM204lKRKiYRiJC,Musician,Músico,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+i2wc6m3gOjNhkCfW,Mystical Mark,Marca Mística,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+xch0EdaTCehkg52T,Nightmares,Pesadelos,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+r3u2KjkKV4RdHOJH,Pack-mule,Transportador,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+qgAzAozSokMYXK36,Pathfinder,Desbravador,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+OnMXCZjH5Nrwwvmb,Pet,Animal de Estimação,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+PTXpq1vOLiskymub,Poison Resilient,Resiliente ao Veneno,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+DL8KfsbIPvwsor10,Protégé,Protegido,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+xyAyqm7DfuqA0tWD,Servant,Servo,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+MZ0IHilxpkO0HMxF,Shadow Spawn,Prole Sombria,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+zwpowgqiMLqoKlbY,Sickly,Enfermo,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+VwjABNGfP61BQvH7,Slow,Lento,burden,Symbaroum - Items / Boons/Burdens,,__unique_not_tradeable__
+jLcIIpJfZYTzjCfd,Soulmate,Alma Gêmea,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+OVAUgsOM3cAbkoch,Storyteller,Narrador,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+KjNHXMswDAbL1Mnu,Telltale,Fofoqueiro,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+xlYht7Af0pEsnomJ,Tough,Durável,boon,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+YTFsRVVNRwcBSekQ,Wanted,Procurado,burden,Symbaroum - APG - Items / APG - Boons/Burdens,,__unique_not_tradeable__
+eeaGmjM98AYywLXV,Alchemical Mine - Moderate,Mina Alquímica - Moderada,equipment,Symbaroum - APG - Items / APG - Equipment,4 thaler,"traps, traps-alchemical, weapons-alchemical"
+RKhbzKmoZXEIZTDN,Alchemical Mine - Strong,Mina Alquímica - Forte,equipment,Symbaroum - APG - Items / APG - Equipment,8 thaler,"traps, traps-alchemical, weapons-alchemical"
+6RKNCpvmzdTUpkGb,Alchemical Mine - Weak,Mina Alquímica - Fraca,equipment,Symbaroum - APG - Items / APG - Equipment,2 thaler,"traps, traps-alchemical, weapons-alchemical"
+9YH9IXvHgHosoUVZ,Arrow - Armor-piercing Head,Flecha - Ponta Perfurante de Armadura,equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,weapons-common
+G4DggGbUJxrlWrzC,Arrow - Flame,Flecha - Flamejante,equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,weapons-common
+RNtaeFKzvVis1rBY,Arrow - Grappling Hook,Flecha - Arpéu,equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,"weapons-common, survival-expedition"
+KU1ifBABDKgHyKeq,Arrow - Hammer Head,Flecha - Cabeça de Martelo,equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,"weapons-common, scrap-trade-goods"
+5aYYs0njIwUMZR5Q,Arrow - Precision,Flecha - Precisão,equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,weapons-common
+22I77kXMahYnEyxL,Arrow - Rope Cutter,Flecha - Cortador de Corda,equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,"weapons-common, survival-expedition"
+LVKo48bE7s9EoxNT,Arrow - Snaring,Flecha - de Laço,equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,weapons-common
+9k3aTAJJ2wHwAZKA,Arrow - Swallow’s Tail,Flecha - Cauda de Andorinha,equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,weapons-common
+tPZQv08Mf5dajHtr,Arrow - Whistler,Flecha - Sibilante,equipment,Symbaroum - APG - Items / APG - Equipment,2 shillings,weapons-common
+an1TKBIxyC1vLjFX,Arrows/Bolts - Regular,Flechas/Virotes - Regulares,equipment,Symbaroum - APG - Items / APG - Equipment,1 thaler,weapons-common
+4dyPzMH8eSvIG1U2,Artifact Catalogue,Catálogo de Artefatos,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"curiosities, specialist-tools"
+GA4B93Y5KllylonO,Bagpipe,Gaita de Fole,equipment,Symbaroum - APG - Items / APG - Equipment,1 thaler,musical-instruments
+QZyuEshzpp2syyNu,Bestiary,Bestiário,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"curiosities, specialist-tools"
+tyKBstqdqqCa2DDI,Birch-bark Horn,Chifre de Casca de Bétula,equipment,Symbaroum - APG - Items / APG - Equipment,1 shillings,musical-instruments
+9iZXN1z4gBeR3xF7,Brass Horn,Chifre de Bronze,equipment,Symbaroum - APG - Items / APG - Equipment,1 thaler,musical-instruments
+xQqiqu2v5GWdSwvK,"Cardamom, one box","Cardamomo, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,5 ortegas,"containers, spices"
+VwwVUwabOwIdGijK,Cartographer’s Instruments,Instrumentos de Cartógrafo,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"specialist-tools, instruments-kits"
+nhbceDcXHbWMe0o6,Cheating Kit,Kit de Trapaça,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"specialist-tools, instruments-kits"
+ZmjiP1fqzPB4pOVb,"Chewing Tobacco, one box","Tabaco de Mascar, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,6 ortegs,"containers, tobacco-utensils"
+9r932BjZ7sCFH9YY,"Cinnamon, one box","Canela, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,1 thaler,"containers, spices"
+ipMza4B28v74dkV1,Clay Pipe,Cachimbo de Argila,equipment,Symbaroum - APG - Items / APG - Equipment,3 shillings,tobacco-utensils
+0pm9O9GmhyDhaDIu,Climbing Gear,Equipamento de Escalada,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,survival-expedition
+YP25qn5UCU20JrYR,"Clove, one box","Cravo, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,7 ortegs,"containers, spices"
+LeDGTcpoQlGvjpOv,"Copper, one bar","Cobre, uma barra",equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,scrap-trade-goods
+4r6gCt4Vo01L11aP,"Cotton Fabric, one roll","Tecido de Algodão, um rolo",equipment,Symbaroum - APG - Items / APG - Equipment,1 thaler,scrap-trade-goods
+bNY1zhVCRMfN7LnR,"Cumin, one box","Cominho, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,5 ortegs,"containers, spices"
+EMjVcWcdaygeqpah,Disguise Kit,Kit de Disfarce,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"specialist-tools, instruments-kits"
+5BjMrC9yGVujgGjU,Excavation Tools,Ferramentas de Escavação,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"specialist-tools, instruments-kits, spices"
+lqTKwIp9tppOWl0v,Fiddle,Violino,equipment,Symbaroum - APG - Items / APG - Equipment,3 thaler,musical-instruments
+k4PpTJc0QIMiSjcA,Field Laboratory,Laboratório de Campo,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"specialist-tools, instruments-kits"
+t0O09fPc9x1MrEYX,Field Library,Biblioteca de Campo,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"specialist-tools, instruments-kits"
+pkAuqCOCrTUkP9WB,Field Smithy,Ferraria de Campo,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"specialist-tools, instruments-kits"
+zXZXi2yTExZhChcO,Field Surgeon’s Instrument Kit,Kit de Instrumentos Cirúrgicos de Campo,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"medical, specialist-tools, instruments-kits"
+3uDmcPBC1N1hqcCz,Forgery Kit,Kit de Falsificação,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"specialist-tools, instruments-kits"
+uVS9mtd52GBzZfzk,"Fruit Tobacco, one box","Tabaco Frutado, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,4 ortegs,"containers, tobacco-utensils"
+whDIIZBhqTTFRwXK,"Ginger, one box","Gengibre, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,5 ortegs,"containers, spices"
+Vtt2efTBQGeZdvMb,"Gold, one bar","Ouro, uma barra",equipment,Symbaroum - APG - Items / APG - Equipment,500 thaler,scrap-trade-goods
+TBhVOzLrU2uan1t3,"Grain, one sack","Grãos, uma saca",equipment,Symbaroum - APG - Items / APG - Equipment,2 shillings,"containers, scrap-trade-goods"
+90CaLe5XZkWIRMBv,"Herbal Tobacco, one box","Tabaco de Ervas, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,2 shillings,"containers, tobacco-utensils"
+DGXYCFQdHJzTc7sJ,Hurdy-gurdy,Hurdy-gurdy,equipment,Symbaroum - APG - Items / APG - Equipment,3 thaler,musical-instruments
+lOlmYOLFWlTgqJXY,"Iron, one bar","Ferro, uma barra",equipment,Symbaroum - APG - Items / APG - Equipment,1 thaler,scrap-trade-goods
+XH4O7ZYM79WJ2A20,Long-stemmed Seafoam Pipe,Cachimbo Espuma do Mar,equipment,Symbaroum - APG - Items / APG - Equipment,1 thaler,tobacco-utensils
+9m5XYf7vIo8Zzilz,"Longbottom Leaf, one box","Folha Amarga, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,8 shillings,"containers, tobacco-utensils"
+7N8SN1EeCdDDxyQ2,Lute,Alaúde,equipment,Symbaroum - APG - Items / APG - Equipment,15 shillings,musical-instruments
+Gvv9hdpZS2e7xgVg,Mechanical Trap - Moderate,Armadilha Mecânica - Moderada,equipment,Symbaroum - APG - Items / APG - Equipment,2 thaler,"traps, traps-mechanical"
+NnjwjE1nfAvMSIYf,Mechanical Trap - Strong,Armadilha Mecânica - Forte,equipment,Symbaroum - APG - Items / APG - Equipment,3 thaler,"traps, traps-mechanical"
+F9iND0L6WowICNmn,Mechanical Trap - Weak,Armadilha Mecânica - Fraca,equipment,Symbaroum - APG - Items / APG - Equipment,1 thaler,"traps, traps-mechanical"
+DpHWHYA4bBZYrT0F,"Mint, one box","Menta, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,5 ortegs,"containers, spices"
+y7PrxTF7L1ffVDfi,Mouth Harp,Harpa de Boca,equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,musical-instruments
+xysREkkfSVxZlRfM,"Oil (vegetable), one earthen","Óleo (vegetal), um pote",equipment,Symbaroum - APG - Items / APG - Equipment,5 ortegs,spices
+FMWP0vnyPzqB7od8,Poison Manual,Manual de Venenos,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"curiosities, specialist-tools"
+N2nopfvcRwQ3dWwq,"Saffron, one box","Açafrão, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,50 thaler,"containers, spices"
+487naCRVdS1B6NQV,"Salt, one sack","Sal, uma saca",equipment,Symbaroum - APG - Items / APG - Equipment,1 shillings,"containers, spices, scrap-trade-goods"
+ktV2Vrubvq9hapKL,"Silk, one roll","Seda, um rolo",equipment,Symbaroum - APG - Items / APG - Equipment,50 thaler,scrap-trade-goods
+Ki9n6nQo3Defka5a,"Silver, one bar","Prata, uma barra",equipment,Symbaroum - APG - Items / APG - Equipment,50 thaler,scrap-trade-goods
+jenCvQn0WkTGYIBL,"Smelling Snuff, one box","Rapé Cheiroso, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,2 thaler,"containers, tobacco-utensils"
+8r5uFlf6UpuKYEOc,Smoke Tube,Cachimbo de Fumaça,equipment,Symbaroum - APG - Items / APG - Equipment,5 ortegs,tobacco-utensils
+qI5UoMPKUVils3kF,Snuff Box,Caixa de Rapé,equipment,Symbaroum - APG - Items / APG - Equipment,1 shilling,"containers, tobacco-utensils"
+vfot56XhP1EcHer1,"Spices, one box","Especiarias, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,3 ortegs,"containers, spices"
+GX027Trqigv6RoNe,Spinet,Espineta,equipment,Symbaroum - APG - Items / APG - Equipment,15 thaler,musical-instruments
+z3rflOt4Op4Xf27P,"Sugar, one sack","Açúcar, uma saca",equipment,Symbaroum - APG - Items / APG - Equipment,1 thaler,"containers, spices, scrap-trade-goods"
+2zDXD3HsZzwqN6td,"Tar, one barrel","Alcatrão, um pote",equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,"containers, scrap-trade-goods"
+vHXGEgn2qTkqiDfC,Trapper’s Manual,Manual do Armadilheiro,equipment,Symbaroum - APG - Items / APG - Equipment,10 thaler,"curiosities, specialist-tools"
+qRVvFtubDDfqiKNP,"Turmeric, one box","Cúrcuma, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment,1 orteg,"containers, spices"
+v23fTkGX2UznPmet,"Vinegar, one earthen","Vinagre, um pote",equipment,Symbaroum - APG - Items / APG - Equipment,1 shilling,spices
+OzkqfeD6vNP09Pe4,Wooden Pipe,Cachimbo de Madeira,equipment,Symbaroum - APG - Items / APG - Equipment,5 shillings,tobacco-utensils
+3ZXQivHXXYO6otOM,Ale-porridge with Butter,Mingau de aveia com manteiga,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 shillings,"food, drink"
+iBBNZ1GWDGh1vEuT,Barbecued Young-boar with Beats,Javali assado com batatas,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,6 shillings,"food, drink"
+Na3YtPkkQEsM18iV,Blood-soup with Dark Bread,Sopa de sangue com pão escuro,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 ortegs,"food, drink"
+rZDUtztcLytrrKBj,Bottle of Blot (mulled wine),Garrafa de Mancha (vinho quente),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,3 thaler,"containers, food, drink, monster-trophies"
+omMiSehsQfP3CkSc,Bottle of Ludendrink (mulled wine),Garrafa de Luden (vinho quente),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 thaler,"containers, food, drink, monster-trophies"
+8UNO0bUA8x1w7yfr,Bottle of of Vearra’s Red (simple wine),Garrafa de vinho tinto de Vearra (vinho simples),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 thaler,"containers, food, drink, monster-trophies"
+JIuFlKjPRqUpzP4z,Bottle of Red Wine (unspecified),Garrafa de vinho tinto (não especificado),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 thaler,"containers, food, drink, monster-trophies"
+91BVnTZr5NB7LoXy,Bottle of Southern Slopes (from Alberetor),Garrafa das Encostas do Sul (de Alberetor),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,15 thaler,"containers, food, drink, monster-trophies"
+UHwFtS7l3oyS5FBX,Bottle of White Wine (unspecified),Garrafa de vinho branco (não especificado),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 thaler,"containers, food, drink, monster-trophies"
+4WtamCX1Lj7tR8Ln,Buttered Walleye with Mash,Zander com manteiga e purê,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,22 shillings,"food, drink"
+kxew6THRLLyD0enW,Cabbage Pie,Torta de repolho,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 shilling,"food, drink"
+DQRSroDPBdm5Fshk,Cabbage Stew,Ensopado de repolho,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,3 ortegs,"food, drink"
+cTTLahVle3FDrdvp,Can of Vesa,Copo de Vesa,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,4 ortegs,"food, drink"
+zMV85eP0zeVbF2fz,Candied Ginger,Gengibre cristalizado,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 shillings,"food, drink, spices"
+Vo1okTqqmMDfO9bc,Fish & Turnips,Peixe e nabos,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 shilling,"food, drink"
+AmKO0vJXN2x8LcCS,Fish Pie,Torta de peixe,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 shillings,"food, drink"
+qwlLA7XJRtLPlB81,Fish Sauce & Crispbread,Molho de peixe e torrada,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 ortegs,"food, drink"
+FT5QIdCw5vI8FtwM,Fried Pastry,Pastel frito,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 ortegs,"food, drink"
+J1XAlWkx8iRzHIeV,Fruit Pie,Torta de frutas,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 thaler,"food, drink"
+yICrS3hrvyoU1lYk,Fruit Pudding,Pudim de frutas,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 orteg,"food, drink"
+IDmmh6TUekYZmtmJ,Fruit Sherbet,Sorvete de frutas,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,7 thaler,"food, drink"
+MqPVolHGcQzJotju,Fruit Tea,Chá de frutas,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 shillings,"food, drink"
+RpksPVVzbh5nvrRg,Hack Tray (cheese and meats),Bandeja de cortes (queijos e carnes),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,3 shillings,"food, drink"
+dZB2JK89jEBQVef5,Hash Patties with Turnips,Fricassê de frango com nabos,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 shillings,"food, drink"
+q4eGSsZvvinwe1Df,Herbal Tea,Chá de ervas,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 ortegs,"food, drink"
+Sad6A4xaLnbpBDDa,Honey-roasted Sorrel,Canela assada com mel,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,3 shillings,"food, drink, spices"
+um0Bm5T794k0Praz,"Honey, one jar","Mel, uma jarra",equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 shilling,"food, drink"
+FigHTlM9kZscJzmM,Ice Cream & Fruit,Sorvete com frutas,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 ortegs,"food, drink"
+mCIshLOVdiYyMBzA,Iron Oak Tea,Chá de carvalho ferro,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,8 ortegs,"food, drink, scrap-trade-goods"
+I4bijtBLasDM2s7a,Kidney Pie,Torta de rim,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 shillings,"food, drink"
+ntcQjZ5agwTls9wK,King’s Steak in Gravy,Bife do rei em molho,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,8 shillings,"food, drink"
+vZkz9M8915uztsRo,Marmalade Confectionery,Marmelada,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,3 shillings,"food, drink"
+GyImGCyD1M5uaAbT,Marzipan Figurines,Bonequinhos de maçapão,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 shillings,"food, drink"
+auYHhueBfbULEhlV,Meat & Beats,Carne com batata,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,8 ortegs,"food, drink"
+E522AWZVX170oYH0,Meat Pie,Torta de carne,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 shillings,"food, drink"
+DQNyGjePy51m50VP,Mixed Stew,Ensopado misto,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 ortegs,"food, drink"
+QG0MsQNe5yX4VJln,Mushroom Pie,Torta de cogumelos,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,4 shillings,"food, drink"
+prneQOqCYnHJHDIc,Nougat Confectionery,Confeito de nogado,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 ortegs,"food, drink"
+5AGBhOkxrkqRjDVA,Nuts in Chocolate,Nozes em chocolate,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 orteg,"food, drink"
+Ha1sPtsrO7Y0w78Z,Offal Pie,Torta de miúdos,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,4 shillings,"food, drink"
+lA80vNYSc3cCmVYI,Onion Soup with Crispbread,Sopa de cebola com torrada,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,4 ortegs,"food, drink"
+QEdHHUhNDtzaWQcd,"Roka Berries, one box","Bagas Roka, uma caixa",equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,12 ortegs,"containers, food, drink"
+PEaoP8c22Y6GWO9a,Roka Sausage with Mashed Beats,Salsicha roka com purê de beterraba,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,12 shillings,"food, drink"
+Arc9fQvls3N76x9t,Root Vegetable Stew,Ensopado de legumes,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,4 ortegs,"food, drink"
+VUUePYLOsHGP31IA,Salted Herring with Turnips,Arenque salgado com nabos,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 shillings,"food, drink"
+YP5IluhtkhA0LoyP,Salty-sweet Needles,Agulhas salgadas,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 ortegs,"food, drink, scrap-trade-goods"
+7c6qacZriLYppadW,Slow-roast with Stewed Carrot,Assado lentamente com cenoura cozida,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 shillings,"food, drink"
+CyUZouVCkkmv83Km,Smoked Tea,Chá defumado,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,4 ortegs,"food, drink"
+RnLj2HFvCxIYYC3m,Spice Tea,Chá de especiarias,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 orteg,"food, drink, spices"
+q2ZTkwpTvxRTJ4kS,Spicy Cream-porridge,Mingau de creme picante,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 thaler,"food, drink"
+0xXMhqDe4Fben1ia,Stuffed Lung with Black Mash,Pulmão recheado com purê preto,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,4 shillings,"food, drink"
+aN3nh7SB1MIURPTq,Sugar-coated Rose Petals,Pétalas de rosa revestidas de açúcar,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 ortegs,"food, drink, spices"
+Q9VDumCqbVtCBOCZ,Table Ale (watered stut),Ale de mesa (stut regada),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 orteg,"food, drink"
+SrbTq1gVesikiPnu,Tankard Adersel (triple fermented ale),Caneca de Adersel (cerveja tripla fermentada),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,8 shillings,"containers, food, drink, spices"
+ueaEFXX6abU6Ki4v,Tankard Argona (fine stut),Caneca de Argona (stut fino),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 shillings,"containers, food, drink"
+SoXo7f5CfOusFluz,Tankard Blackbrew (unspecified),Caneca de Caldo Negro (não especificado),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 orteg,"containers, food, drink"
+0HmwAOVzLftcurjn,Tankard Kurun’s Honor (triple fermented),Caneca de Honra de Kurun (tripla fermentada),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 shillings,"containers, food, drink, spices"
+7hHQrrpKY8Kw2dL2,Tankard Stut (unspecified),Caneca de stut (não especificado),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,3 ortegs,"containers, food, drink"
+5EIUfgXoeDhzbdxp,Tankard The Duke’s Relief (simple stut),Caneca de O Alívio do Duque (stut simples),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 shilling,"containers, food, drink"
+52YqEe21kf7cIsp9,Tankard Urtal (triple fermented red ale),Caneca de Urtal (cereja vermelha tripla fermentada),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,3 shillings,"containers, food, drink, spices"
+FJaCL6T6UHYEITJE,Tankard Veloum (barbarian must),Caneca de Veloum (mofo bárbaro),equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,2 shillings,"containers, food, drink"
+9R3EZpSclWQQcKcu,Tankard Zarekian Blackbrew,Caneca de Caldo Negro zarekiano,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,1 shilling,"containers, food, drink"
+kyD7qHjho14LhtPH,Trout Pie,Torta de truta,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,8 shillings,"food, drink"
+FEqyOFCr7XtpskfI,Trout Pudding with Turnips,Pudim de truta com nabos,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,15 shillings,"food, drink"
+wOQqzrZcfpOgo72R,Truffle-buttered Biscuit,Biscoito com manteiga de trufas,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,5 ortegs,"food, drink"
+Nvkw2BT7LQh72aId,Waffles with Butter and Honey,Waffles com manteiga e mel,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,3 shillings,"food, drink"
+PqQ44Fv54iClP66N,Watered Porridge,Mingau regado,equipment,Symbaroum - APG - Items / APG - Equipment / 1 Food and Drink,4 ortegs,"food, drink"
+6PC86yGvwHOzSyHw,Anoint,Ungir,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+LJGUVDgIuENMTs1v,Atonement,Expiação,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+nSaS2VZ1MC5tvx6a,Beast Companion,Besta Companheira,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+mgyYexU3XN7FwW6r,Bewitching Landscape,Paisagem encantadora,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+YKIgJisMGQXF7tlt,Black Sympathy,Simpatia Sombria,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+EnSA3PzqP2SdwEVV,Blood Storm,Tempestade de Sangue,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+8id1nmESAM20U58j,Burdened by Fate,Sobrecarregado pelo Destino,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+4bWNYQo88mLpNYco,Carve Rune Tattoo,Esculpir Tatuagem Rúnica,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+BSPd9mJinydT6Lpw,Death Divination,Adivinhação da Morte,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+Su1I4Fy7wBpqE8a0,Death Lord,Lorde da Morte,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+xvHPrmX8E1DPluN7,False Shape,Forma Falsa,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+6AeIoOVcsteQ0fGw,Faraway Writing,Escrita distante,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+yFIPsWEqh57i0ohA,Fata Morgana,Fata Morgana,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+cU3Af1Ol6YDYU7Ft,Flesh Craft,Moldar Carne,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+M48srUPajxpX892R,Life Extension,Estender Vida,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+WyoAtxHs2cjxatIF,Living Fortress,Fortaleza Viva,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+mvcPzVBQPDfsSrjW,Phylactery,Filactério,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+D1tDFgVl7deiIQA7,Piercing Gaze,Olhar penetrante,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+c7cac7sIpFXoHEGp,Quake,Tremor,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+Uz5JIB0Kj2BFCYMO,Raise Undead,Erguer os Mortos,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+MTkp7sgyAMtiMa25,Restore,Restaurar,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+KQLYiI7ZvVI4AlpK,Retrieve,Recuperar,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+ZnRosluDYu7adYfK,Rune Guardian,Guardião Rúnico,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+pfvYwfaP7eBIn9pw,Sealing/Opening Rite,Rito de Selar/Abrir,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+svG4w4z0CUjsn9gJ,Servant Daemon,Servo Daemon,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+ph4VAbD7ixV9zkg0,Soul Trap,Armadilha de Alma,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+3Mzjq5mn5GNk56r6,Spell Trap,Armadilha de Feitiços,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+h1OAzXcNhjDGNDs9,Spell Tunnel,Túnel de Magia,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+M3gxx4GnXeH3NPMK,Summon Daemon,Convocar Daemon,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+ff2LATGVXpDwAqtk,Torment,Tormento,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+EtXkzSGUZBsaNZAn,Traceless,Sem Rastro,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+J7rzRC3cVfWbw5rA,Twin Servants,Servos Gêmeos,ritual,Symbaroum - APG - Items / APG - Rituals,,__unique_not_tradeable__
+yFRUIktFYxsBfXKz,Earth bound,Herança Natural,trait,Symbaroum - Items / Traits,,__unique_not_tradeable__
+PlCHUpi49GvxxyjI,Wisdom of the Ages,Sabedoria das Eras,trait,Symbaroum - Items / Traits,,__unique_not_tradeable__
+UOuleO8eTNy7HoMk,"Alchemical Firetube, Portable","Tubo de Fogo Alquímico,Portátil",weapon,Symbaroum - APG - Items / APG - Weapons,10 thaler,weapons-alchemical
+tYJNBnpf7F0XK74x,"Alchemical Firetube, Stationary","Tubo de Fogo Alquímico, Estacionário",weapon,Symbaroum - APG - Items / APG - Weapons,250 thaler,weapons-alchemical
+9u7QgjLOIPBe5s85,Alchemical Grenade,Granada Alquímica,weapon,Symbaroum - APG - Items / APG - Weapons,1 thaler,weapons-alchemical
+yfwuB6HVo27Q2yly,Assassin’s Blade,Lâmina do Assassino,weapon,Symbaroum - APG - Items / APG - Weapons,5 thaler,weapons-common
+DOMBBxoTukA7PO3V,Ballista,Balestra,weapon,Symbaroum - APG - Items / APG - Weapons,50 thaler,weapons-siege
+4Sr3bPwDbMvNasrw,Blowpipe,Zarabatana,weapon,Symbaroum - APG - Items / APG - Weapons,2 thaler,weapons-common
+YvbgSS2D45hNTFc3,Bolas,Bolas,weapon,Symbaroum - APG - Items / APG - Weapons,2 thaler,weapons-common
+xEHxF78Z9pO1vlOl,Breaching (Pot on ground),Pote de Ruptura (no chão),weapon,Symbaroum - APG - Items / APG - Weapons,100 thaler,weapons-quality
+RmGT5eV8yhcn9Edh,Breaching Pot (buried),Pote de Ruptura (Enterrado),weapon,Symbaroum - APG - Items / APG - Weapons,100 thaler,weapons-quality
+WJq0oCyBkWOrO1jr,Catapult,Catapulta,weapon,Symbaroum - APG - Items / APG - Weapons,250 thaler +50 per Breaching Pot,weapons-siege
+n6wGtlCyOqzsxQ2i,Chain Staff,Cajado Corrente,weapon,Symbaroum - APG - Items / APG - Weapons,15 thaler,weapons-common
+mJak8B2V6qRxbXmc,Composite Bow,Arco Composto,weapon,Symbaroum - APG - Items / APG - Weapons,25 thaler,weapons-quality
+sphBWYarcCvfLhME,Estoc,Estoc,weapon,Symbaroum - APG - Items / APG - Weapons,25 thaler,weapons-quality
+qsP2vNKQEIi0IPYN,Executioner’s Sword,Espada do Executor,weapon,Symbaroum - APG - Items / APG - Weapons,50 thaler,weapons-quality
+XMaI7VTlVnoWtGrc,Grappling Axe,Machado com Gancho,weapon,Symbaroum - APG - Items / APG - Weapons,50 thaler,weapons-quality
+iNyfbwSwmFkHA7Zw,Heavy Flail,Mangual Pesado,weapon,Symbaroum - APG - Items / APG - Weapons,50 thaler,weapons-quality
+UL9hwMy9EI18vCdo,Horseman’s Bow,Arco de Cavalaria,weapon,Symbaroum - APG - Items / APG - Weapons,50 thaler,weapons-quality
+znXEWwp6vlfTGubn,Lance (on Horse),Lance (a cavalo),weapon,Symbaroum - APG - Items / APG - Weapons,15 thaler,weapons-common
+ecoIFYt6rPV7fwMS,Lance (two-handed),Lança de Cavalaria (Duas mãos),weapon,Symbaroum - APG - Items / APG - Weapons,15 thaler,weapons-quality
+OZPLEsqZm4DdiCqe,Long-hammer (single handed),Martelo Longo (Uma mão),weapon,Symbaroum - APG - Items / APG - Weapons,50 thaler,weapons-quality
+Cvc8Sfh1lJz2NY7S,Long-hammer (two-handed),Martelo longo (Duas mãos),weapon,Symbaroum - APG - Items / APG - Weapons,50 thaler,weapons-quality
+GjIdXfDqsjQQ8Gb3,Long-Whip,Chicote Longo,weapon,Symbaroum - APG - Items / APG - Weapons,10 thaler,weapons-common
+l81sBzwy9laFDGWK,Missile Battery,Bateria de mísseis,weapon,Symbaroum - APG - Items / APG - Weapons,200 thaler +50 per charge,weapons-quality
+Ov523vxhsHazPDun,Repeating Crossbow,Besta de Repetição,weapon,Symbaroum - Items / Weapons,40 thaler,weapons-quality
+GAMQRl20Trd0n7qo,Small Crossbow,Besta Pequena,weapon,Symbaroum - APG - Items / APG - Weapons,40 thaler,weapons-quality
+MCwJG5cQ926Dcb2X,Throwing Wing,Asa de arremesso,weapon,Symbaroum - APG - Items / APG - Weapons,10 thaler,weapons-common
+4JG3NxzghnYwPlJv,Trebuchet,Trabuco,weapon,Symbaroum - APG - Items / APG - Weapons,1250 thaler,weapons-siege
+Q6CZ0Y0YbKxjwT5h,Warhammer,Martelo de Guerra,weapon,Symbaroum - APG - Items / APG - Weapons,50 thaler,weapons-quality
+tzFmUj68BKlNfMto,Mystical Power,Poder Místico,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+FjTzl76enyn1rznu,Two-handed Force,Força da Empunhadura Dupla,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+GWX6r9gZ85nUkmjz,Choking Spores,Esporos Sufocantes,equipment,Symbaroum - Items / Alchemical Elixirs,2 thaler,"elixirs-common, weapons-alchemical"
+0i0v4iWmKQu1ubLZ,Concentrated Magic,Mágica Concentrada,equipment,Symbaroum - Items / Alchemical Elixirs,1 thaler,elixirs-common
+q2QkshZTXVAeit9t,Elemental Essence,Essência Elemental,equipment,Symbaroum - Items / Alchemical Elixirs,2 thaler,elixirs-common
+rm9PQir9HBeur4Hd,Elixir of Life,Elixir da Vida,equipment,Symbaroum - Items / Alchemical Elixirs,6 thaler,elixirs-quality
+Pd543wVzvwAqKjvG,Eye Drops,Colírio,equipment,Symbaroum - Items / Alchemical Elixirs,2 thaler,elixirs-common
+aKPlySz0Zv7gK3kh,Ghost Candle,Vela Fantasma,equipment,Symbaroum - Items / Alchemical Elixirs,2 thaler,"elixirs-common, weapons-alchemical"
+JPTpIVE5y6BxKnzX,Herbal Cure,Cura Herbal,equipment,Symbaroum - Items / Alchemical Elixirs,1 thaler,"elixirs-common, medical"
+PngUfCXZ7D6prfqX,Moderate Antidote,Antídoto Moderado,equipment,Symbaroum - Items / Alchemical Elixirs,2 thaler,"elixirs-quality, medical"
+f8AsSYs3HcTet1wQ,Moderate Poison,Veneno Moderado,equipment,Symbaroum - Items / Alchemical Elixirs,4 thaler,elixirs-quality
+sZ7EHnbHhl3gDgVV,Protective Oil,Óleo de Proteção,equipment,Symbaroum - Items / Alchemical Elixirs,2 thaler,elixirs-common
+WM3GpZTmcyIfmWXu,Spore Bomb,Bomba de Esporos,equipment,Symbaroum - Items / Alchemical Elixirs,3 thaler,"elixirs-common, weapons-alchemical"
+sz4uDmvtfshseAzZ,Strong Antidote,Antídoto Forte,equipment,Symbaroum - Items / Alchemical Elixirs,3 thaler,"elixirs-quality, medical"
+IadiGiY3ALIuQREl,Strong Poison,Veneno Forte,equipment,Symbaroum - Items / Alchemical Elixirs,6 thaler,elixirs-quality
+pZRbyyX2FrEHM0xr,Waybread,Pão de viagem,equipment,Symbaroum - Items / Alchemical Elixirs,1 thaler,"elixirs-common, food, survival-expedition"
+sSVltexu3egYH38a,Weak Antidote,Antídoto Fraco,equipment,Symbaroum - Items / Alchemical Elixirs,1 thaler,"elixirs-common, medical"
+OmFHIRWk7zl0b6Tf,Weak Poison,Veneno Fraco,equipment,Symbaroum - Items / Alchemical Elixirs,2 thaler,elixirs-common
+LBdmCmjdlfVtwUBq,Wraith Dust,Pó de Espectro,equipment,Symbaroum - Items / Alchemical Elixirs,2 thaler,"elixirs-common, weapons-alchemical"
+pIGeszMRBsmXTO9F,Animal Skin,Pele de Animal,armor,Symbaroum - Items / Armor,,animals-derived
+1cCakrFd71BLvovB,Mal-Rogan's Mummified Hand,Mão mumificada de Mal-Rogan,equipment,Symbaroum - Items / Artifacts,,artifacts-major
+FmftXDDXD5jJ7avo,The Serpent Staff of Opadia,O Cajado Serpente de Opadia,weapon,Symbaroum - Items / Artifacts,,artifacts-major
+Qeg4ZRy5Gpqktfy6,The Sun Stone,A Pedra do Sol,equipment,Symbaroum - Items / Artifacts,,artifacts-major
+ZIjseCjEtqNLOvXa,Water of Dusk,Água do Crepúsculo,equipment,Symbaroum - Items / Artifacts,,artifacts-major
+NCrP75b8yaDNwQgM,Bushcraft,Mateiro,boon,Symbaroum - Items / Boons/Burdens,,__unique_not_tradeable__
+KjRqQNF0zNjOiPfM,Contacts,Contatos,boon,Symbaroum - Items / Boons/Burdens,,__unique_not_tradeable__
+VEUmXkYFgYObPrjo,Long-Lived,Vida Longa,boon,Symbaroum - Items / Boons/Burdens,,__unique_not_tradeable__
+oo9UPonEDu5ne9Jz,Pariah,Pária,burden,Symbaroum - Items / Boons/Burdens,,__unique_not_tradeable__
+N8vNNkDWZJ4oIw5r,Privileged,Privilegiado,boon,Symbaroum - Items / Boons/Burdens,,__unique_not_tradeable__
+EdskJFgLyNNDQbR3,Short-Lived,Vida Curta,burden,Symbaroum - Items / Boons/Burdens,,__unique_not_tradeable__
+rI8B4sWmIHp8MT43,Artisan tool,Ferramenta de Artesão,equipment,Symbaroum - Items / Equipment,1 thaler,spices
+0QKnRDsFZ7vVx8oD,Artisan’s garb,Traje de Artesão,equipment,Symbaroum - Items / Equipment,5 shillings,clothing
+sZfWU3esv36Bnhuq,Backpack,Mochila,equipment,Symbaroum - Items / Equipment,1 thaler,containers
+q7RrwXYIEsMkTUcq,Bandages,Bandagens,equipment,Symbaroum - Items / Equipment,5 ortegs,"medical, specialist-tools"
+X7F6JUo0GtUogCiK,Barrel,Barríl,equipment,Symbaroum - Items / Equipment,4 ortegs,containers
+MDi1nH4qWh0V3flP,Basket,Cesta,equipment,Symbaroum - Items / Equipment,2 ortegs,containers
+8fc1X5UViabt6GDA,Bear trap,Armadilha de Urso,equipment,Symbaroum - Items / Equipment,5 shillings,"traps, traps-mechanical"
+JUCV3b2At80lIT0P,Bedroll,Saco de Dormir,equipment,Symbaroum - Items / Equipment,5 ortegs,"containers, survival-expedition"
+cUlpN4Q5m4YkOnaR,Belt pouch,Bolsa de Moedas,equipment,Symbaroum - Items / Equipment,5 ortegs,containers
+tALgI0WPrzGRhPep,Blanket,Cobertor,equipment,Symbaroum - Items / Equipment,2 ortegs,survival-expedition
+6NnVfd3oL0TGe4W4,Boots,Botas,equipment,Symbaroum - Items / Equipment,1 shilling,clothing
+XOtgrwFUnM8oItmZ,Brass bell,Sino de Bronze,equipment,Symbaroum - Items / Equipment,6 shillings,scrap-trade-goods
+3YOsnoyEjocnSYQA,Burgher’s garb,Traje de Burguês,equipment,Symbaroum - Items / Equipment,1 thaler,clothing
+Xl1wZXPo93neyYzp,Cap,Chapéu,equipment,Symbaroum - Items / Equipment,2–4 ortegs,clothing
+2g7n9eK2R4R7byMa,Chain,Corrente,equipment,Symbaroum - Items / Equipment,1 thaler,scrap-trade-goods
+woXZ51lObYpPxEtR,Clay pitcher,Jarro de Barro,equipment,Symbaroum - Items / Equipment,5 ortegs,containers
+sHMVwq4xPbw4SHXm,Climbing equipment,Equipamento de Escalada,equipment,Symbaroum - Items / Equipment,1 thaler,survival-expedition
+WDjzr5BsCommW6pW,Cloak,Capa,equipment,Symbaroum - Items / Equipment,2–6 ortegs,clothing
+FFngsYBfAEy5BrFi,Coat,Casaco,equipment,Symbaroum - Items / Equipment,5–10 ortegs,clothing
+GtjZI8Lvnmg3c7xP,Coin purse,Bolsa de Moedas,equipment,Symbaroum - Items / Equipment,3 ortegs,containers
+Ot85bJGAzsoonBzX,Cooking pan,Frigideira,equipment,Symbaroum - Items / Equipment,1 orteg,scrap-trade-goods
+r99hsnHk2RWKrcYw,Crayons,Giz,equipment,Symbaroum - Items / Equipment,1 orteg,scrap-trade-goods
+wFdhhV0RKUrTq77a,Decorated box,Caixa Decorada,equipment,Symbaroum - Items / Equipment,2–5 thaler,containers
+CRTEVGBmZYkntKVT,Dress,Vestido,equipment,Symbaroum - Items / Equipment,1–10 shillings,clothing
+AgUiqfl0xvdoxpd9,Drinking horn,Copo de Chifre,equipment,Symbaroum - Items / Equipment,2 ortegs,"musical-instruments, drink"
+VH5qW2oRB7Z2DPLk,Drum,Tambor,equipment,Symbaroum - Items / Equipment,3 shillings,musical-instruments
+yXilV2RZ3XDoc4XG,Field equipment,Equipamento de Acampar,equipment,Symbaroum - Items / Equipment,5 shillings,survival-expedition
+oVTWWx1RVMBi8SA9,Firewood,Lenha,equipment,Symbaroum - Items / Equipment,2 ortegs,survival-expedition
+mT857PQbiqvXYRhq,Fishing line and hook,Vara de Pesca,equipment,Symbaroum - Items / Equipment,3 ortegs,survival-expedition
+VQwjt2YTGzPLqR4M,Fishing net,Rede de Pesca,equipment,Symbaroum - Items / Equipment,1 shilling,survival-expedition
+F8F8WMMFxm5WNtt2,Flint and steel,Pederneira e isqueiro,equipment,Symbaroum - Items / Equipment,2 ortegs,survival-expedition
+JWANLD94LxzV8J9D,Flute,Flauta,equipment,Symbaroum - Items / Equipment,2 shillings,musical-instruments
+jAJ8kiArike0ax5o,Glass vial,Glass vial,equipment,Symbaroum - Items / Equipment,1 shilling,containers
+egAj6lM1KdqirHJY,Gown,Beca,equipment,Symbaroum - Items / Equipment,1–5 ortegs,clothing
+HiUvqNPY9LQBTelJ,Grappling hook,Arpéu,equipment,Symbaroum - Items / Equipment,1 thaler,survival-expedition
+2xsxie4YfSKzE49y,Hammer,Martelo,equipment,Symbaroum - Items / Equipment,1 thaler,scrap-trade-goods
+avUs57KAmBICf6rt,Hat,Chapéu,equipment,Symbaroum - Items / Equipment,2–4 ortegs,clothing
+1Dw8JMS0450pfWzT,Horn,Corneta,equipment,Symbaroum - Items / Equipment,4 ortegs,musical-instruments
+EdODRnX1vZ0fl8Zq,Hour glass,Ampulheta,equipment,Symbaroum - Items / Equipment,4 thaler,scrap-trade-goods
+XoPi2xEn5Q5FpKcm,Ink and feather,Tinta e Pena,equipment,Symbaroum - Items / Equipment,1 shilling,scrap-trade-goods
+rereHD0WR1J9Wy8f,Knapsack,Knapsack,equipment,Symbaroum - Items / Equipment,1 shilling,scrap-trade-goods
+14jr0tLMQUM4kLBW,Ladder,Escada,equipment,Symbaroum - Items / Equipment,7 ortegs,survival-expedition
+HUvBL8aGlKayfp6A,Lamp oil,Óleo de Lâmpada,equipment,Symbaroum - Items / Equipment,1 orteg,spices
+BqbOGVNZnpPbMuTi,Lantern,Lanterna,equipment,Symbaroum - Items / Equipment,4 ortegs,survival-expedition
+sKgVlpR4IaMVcXEN,Large Chest,Baú Grande,equipment,Symbaroum - Items / Equipment,1 thaler,containers
+v4BN68Uu8TfvetQs,Lockpicks,Gazuas,equipment,Symbaroum - Items / Equipment,1 thaler,"specialist-tools, instruments-kits"
+LCkhtMcuoe4q1aL9,Mask,Máscara,equipment,Symbaroum - Items / Equipment,5–10 ortegs,clothing
+DJ5Xza6GFzbc76p0,Mining pick,Picareta,equipment,Symbaroum - Items / Equipment,5 shilling,scrap-trade-goods
+U4LaFCOw3rxc2afI,Needle and thread,Agulha e linha,equipment,Symbaroum - Items / Equipment,1 orteg,scrap-trade-goods
+uSBITxTkbHpKGd9I,Noble’s garb,Traje de Nobre,equipment,Symbaroum - Items / Equipment,10+ thaler,clothing
+dLjdrILOIRrL3Zaf,Pants,Calça,equipment,Symbaroum - Items / Equipment,1–5 ortegs,clothing
+yub5XIlC4lrVl3f2,Paper,Papél,equipment,Symbaroum - Items / Equipment,3 ortegs,scrap-trade-goods
+ym3JIDcZb6eLE7Ld,Parchment,Pergaminho,equipment,Symbaroum - Items / Equipment,2 ortegs,scrap-trade-goods
+NDW0HPfldlGa0LIm,Pocket mirror,Espelho de Bolso,equipment,Symbaroum - Items / Equipment,7 thaler,scrap-trade-goods
+7lLkgWOOzehGuKgn,Quiver,Aljava,equipment,Symbaroum - Items / Equipment,1 shilling,containers
+cqZIM9ibdLHr1DXY,Robe,Robe,equipment,Symbaroum - Items / Equipment,1–5 shillings,clothing
+GWrNrjOnDzBSrWdf,Rope,Corda,equipment,Symbaroum - Items / Equipment,1 shilling,survival-expedition
+wJrgYW4SIoZrnDJk,Rope ladder,Escada de Corda,equipment,Symbaroum - Items / Equipment,3 shillings,survival-expedition
+BqOrM4KuG0dE3pTQ,Sack,Saco,equipment,Symbaroum - Items / Equipment,2 ortegs,"containers, scrap-trade-goods"
+D0IV2SjjvbudO6L2,Scarf,Cachecol,equipment,Symbaroum - Items / Equipment,1–2 ortegs,clothing
+XMlvwSg9VdMFvC0h,Scythe,Foice,equipment,Symbaroum - Items / Equipment,1 thaler,scrap-trade-goods
+Tgdxf9Cpt8iXYS8v,Shirt,Camisa,equipment,Symbaroum - Items / Equipment,1–4 ortegs,clothing
+d4fcDYeJ9AYbiYOo,Shovel,Pá,equipment,Symbaroum - Items / Equipment,3 shilling,scrap-trade-goods
+sYqrn0GoD4wTODDn,Simple garb,Trajes Simples,equipment,Symbaroum - Items / Equipment,1 shilling,clothing
+vZHOCX2zNHq9MaLQ,Skirt,Saia,equipment,Symbaroum - Items / Equipment,5–10 ortegs,clothing
+d0pLzd9EsKxaB87y,Sledgehammer,Marreta,equipment,Symbaroum - Items / Equipment,1 thaler,scrap-trade-goods
+imIbX2vRCJwrc8EP,Small Chest,Baú Pequeno,equipment,Symbaroum - Items / Equipment,3 shillings,containers
+mxSeRfYxwausLafv,Snares,Armadilha de Caça,equipment,Symbaroum - Items / Equipment,3 shillings,"traps, traps-mechanical"
+Wh7J8Tn5umFigWzE,Snow shoes,Sapatos de Neve,equipment,Symbaroum - Items / Equipment,5 shillings,survival-expedition
+MVKRrF6AmiIlzIsr,Soap,Sabão,equipment,Symbaroum - Items / Equipment,5 ortegs,scrap-trade-goods
+L6YaVaufNnkEVsSE,Spy glass,Luneta,equipment,Symbaroum - Items / Equipment,10 thaler,survival-expedition
+wLRCe2XjqGrk3TJF,Tankard,Caneca,equipment,Symbaroum - Items / Equipment,1 orteg,containers
+vWnBrDcSolBcdyGO,Tent,Tenda,equipment,Symbaroum - Items / Equipment,3 shillings,survival-expedition
+DXO7Hdl7095tDmP5,Torch,Tocha,equipment,Symbaroum - Items / Equipment,1 orteg,survival-expedition
+GtXeNoEXYzb9S6ik,Torn rags,Trapos,equipment,Symbaroum - Items / Equipment,5 ortegs,clothing
+4hNPvb3SQQzOgTlU,Tunic,Túnica,equipment,Symbaroum - Items / Equipment,2–7 ortegs,clothing
+lQZ355N4huoTlxHB,Waterskin,Cantil,equipment,Symbaroum - Items / Equipment,3 shillings,containers
+Q5JZxbsjgU7K0xa8,Wax candle,Cera de Vela,equipment,Symbaroum - Items / Equipment,4 ortegs,scrap-trade-goods
+4Z5H4JLIXNxAe81Y,Weapon maintenance kit,Kit de Manutenção de Arma,equipment,Symbaroum - Items / Equipment,5 shillings,instruments-kits
+7w1ZKMPubks7PAok,Whetstone,Pedra de Amolar,equipment,Symbaroum - Items / Equipment,4 ortegs,survival-expedition
+Vsq5prYDyCdHrmz1,Whistle,Apito,equipment,Symbaroum - Items / Equipment,2 shillings,scrap-trade-goods
+BMdR0WSQINVQFKFP,Blood Bond,Laço de Sangue,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+8SRTCmjpkyqy84Uj,Borrow Beast,Emprestar Besta,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+4GvYUk6WpmPPRCT2,Break Link,Quebrar Vínculo,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+cPUvavxGK0e23RaJ,Clairvoyance,Clarividência,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+ODgqsClOeR2RpQC4,Command Confession,Comandar Confissão,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+lbA3GXMsQiyUO8g7,Desecrating Rite,Rito de Profanação,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+kQM8H1ZdT1hxiZJS,Enslave,Escravizar,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+yX02VXPNxB25H5hs,Exchange Shadow,Trocar sombra,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+GGiRJ6gGM9gpCxFL,Exorcism,Exorcismo,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+9zGbqfJHxI8vHywC,False Terrain,Terreno Falso,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+7Xo9rbAtaK88sWbi,Familiar,Familiar,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+LIXBcDkbfxnyyfDR,Flaming Servant,Servo Flamejante,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+cYo9mTnvAwJUscEz,Fortune Telling,Leitura da Sorte,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+TkOSKfTe8nVk76s0,Heretic's Trail,Rastro do Herege,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+WQO3e8BGcgg5z2d4,Holy Smoke,Fumaça Sagrada,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+Y67kygqMOOs4kXnR,Illusion,Ilusão,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+SQqXwZmhESZ6SS76,Judging Bonds,Elos de Julgamento,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+xiKXbukB8BXROBoh,Magic Circle,Círculo Mágico,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+IldN6NgYBZ7cjTLK,Nature's Lullaby,Cantiga da Natureza,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+VrtzD51qwTOBQuVO,Necromancy,Necromancia,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+RWDeyqtNys65hm0e,Oracle,Oráculo,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+bk19cgSMxcsn7bTC,Patron Saint,Santo Patrono,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+T4tSeFUN3ttrDLLD,Possess,Possessão,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+6yGH7bmwxJA2c3mW,Purging Fire,Fogo Purgante,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+i8ZzSJN3xhgHAvF2,Quick Growth,Crescimento Rápido,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+LOdZvv5ZE8apSPXk,Sanctifying Rite,Rito de Santificação,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+AcpUFh1oq1sehoza,Sanctum,Sacrário,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+3dJvSw98uIhoXlM8,Seven-League Stride,Passo de sete léguas,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+LsA7CMF9MdDOm9Zb,Soul Stone,Pedra da Alma,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+U40kv11LBNWdZJUm,Summoning,Convocação,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+O6DHd5ebvZuoV2Bk,Tale of Ashes,Conto das Cinzas,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+l3Wr6j8yr9PDRMLa,Telepathic Interrogation,Interrogatório Telepático,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+6ZRqPEZhMLDiD11H,Turn Weather,Virar o Clima,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+Aw6v5aZFmF94lB2Q,Witch Circle,Círculo de Bruxa,ritual,Symbaroum - Items / Rituals,,__unique_not_tradeable__
+codDc6IXVqsoFOA0,Bite,Mordida,weapon,Symbaroum - Items / Weapons,,__unique_not_tradeable__
+FyUM7rCmkpWCflmm,Claws,Garras,weapon,Symbaroum - Items / Weapons,,__unique_not_tradeable__
+uosPsnDDZybI35VI,Tusks,Presas,weapon,Symbaroum - Items / Weapons,,__unique_not_tradeable__
+vk5tMckyeZppEmu0,No Pain,Sem Dor,trait,Symbaroum - Items / System Special Traits,,__unique_not_tradeable__
+7ujg3CLpJtNUlX3j,Thoroughly Corrupted,Completamente Corrompido,trait,Symbaroum - Items / System Special Traits,,__unique_not_tradeable__
+F0fA6aNlV1Qk3nsX,Agile Combat,Combate Ágil,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+j5UodVrZKXu7v9Tu,Armored Mystic,Místico Blindado,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+BLZXumBD10ij5Oz1,Arrow Jab,Golpe com Flecha,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+S0pUaD5rYAMNlqbt,Artifact Crafting,Criar Artefatos,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+Favi2WfO3Pw79HiL,Axe Artist,Artista do Machado,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+Tzd6nyGeIxeUk6Lh,Blacksmith,Ferreiro,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+7WFeG0XkP5Ve4HmM,Blood Combat,Combate Sangrento,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+kkMKJ8TmJ1WZrOLU,Channeling,Canalização,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+WPK66ZKQskRv39c7,Cheap Shot,Golpe Baixo,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+cbVanDY2DUePu26K,Ensnare,Enredar,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+eeFqp1oTrFQE46eu,Feat of Strength,Façanha de força,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+0arXxvR6xUU4gZ7T,Flailer,Mangualeiro,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+vlmc6kVgaItVqIYA,Hammer Rhythm,Ritmo do Martelo,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+QU4RRSCJfFm1lHge,Hunters Instinct,Instinto de Caçador,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+iaccKR53OdsWQiA8,Knife Play,Dança da Adaga,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+8XxETLdiEoVMuGRk,Mantle Dance,Dança do Manto,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+TgUTJXIcFXY7Adc4,Opportunist,Oportunista,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+tcMBQ0csHbBdeCG3,Pyrotechnics,Pirotecnia,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+XU7i1wje8DrRwxzN,Rapid Reflexes,Reflexos Rápidos,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+5n9lfI9sSBpQELdE,Rune Tattoo,Tatuagem Rúnica,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+YbScEHV3JgD3h6K6,Siege Expert,Perito em Cerco,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+V6LbJnmQAGIKovcv,Staff Fighting,Luta de Cajado,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+jkaqgbdNN8EPI5Vt,Staff Magic,Magia do Cajado,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+Amps92cGk8ZdzuaX,Strong Gift,Dom Poderoso,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+zHR5gpfKCSbyqJGl,Sword Saint,Espada Abençoada,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+ztLXG8HBsNE8dQi3,Symbolism,Simbolismo,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+y99UQywk0x5728CB,Trapper,Armadilheiro,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+Y8lqUCa3VxFW5Ci9,Trick Archery,Truque de Arquearia,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+crxGu1TNGFJyx48O,Troll Singing,Canto do Troll,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+lF9Db29T2ZchtLji,Wrestling,Luta Livre,ability,Symbaroum - APG - Items / APG - Abilities,,__unique_not_tradeable__
+zSv5nfBXnTyAspnA,Banishing Seal,Selo de Banimento,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+7NImFTHt7CyLP7Sz,Black Bolt,Raio Negro,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+ajynODp5cm6xcZ05,Black Breath,Sopro Sombrio,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+VnGEs6qKzOefbWB2,Blinding Symbol,Símbolo Cegante,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+gXYYsHO2bbCnYRUF,Combat Hymn,Hino de Combate,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+zwm90wgnFDkHmLsf,Dancing Weapon,Arma Dançante,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+CfD5LA0SwRb3T55G,Draining Glyph,Glifo de Drenagem,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+UiuxQpdYd77djh2z,Exorcize,Exorcizar,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+Ph64VjejChIbksvR,Fire Soul,Alma de Fogo,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+trVjQuZcXF3R3VYM,Heroic Hymn,Hino Heroico,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+5t7gZeIQ0WlTptYc,Lifegiver,Doador de Vida,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+1WbEbLw4S4d3z7vg,Mirroring,Espelhamento,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+cVy30hKTVqx7yQmQ,Protective Runes,Runas Protetivas,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+XQ03v58UtUSATZb8,Psychic Thrust,Impulso Psíquico,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+WT73nYnyartEDDYA,Purgatory,Purgatório,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+k28ecR2faQ2e3z6y,Retribution,Retribuição,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+inkF3ZWw0zcT0CNE,Sphere,Esfera,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+E5ASDU25msDHCb8f,Spirit Walk,Caminhada Espiritual,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+XWhoMvPIKgEQ3P1p,Staff Projectile,Cajado Projétil,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+tMdvw1r0iwxPqgEr,Teleport,Teleporte,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+K8BoJhtQIiMBdjfe,Thorn Cloak,Manto de Espinhos,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+Oby8ka9zvLjaamgZ,Tormenting Spirits,Espíritos Atormentadores,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+0CbfqEu54k1inBXA,Weakening Hymn,Hino de Enfraquecimento,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+6RpmQIQGtKPTN1RV,Wild Hunt,Caçada Selvagem,mysticalPower,Symbaroum - APG - Items / APG - Powers,,__unique_not_tradeable__
+1wotlpoiMH7pugMA,Acrobatics,Acrobacias,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+3isCGpnZ7P3uuEkR,Alchemy,Alquimia,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+MRn0WozxewNd1awG,Backstab,Ataque Furtivo,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+0JauePHjxhn5Xfkf,Beast Lore,Saber de Bestas,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+MWJeFpPhHpiCc1uh,Berserker,Amoque,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+mHdHWdq3l2GhUCAA,Bodyguard,Guarda-Costa,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+4xYUXTdGU60wmYLq,Dominate,Dominação,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+zTaNH9duOOLHgMkF,Equestrian,Equestre,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+lf2k0hGwBkFTExO9,Exceptional Attribute,Atributo Excepcional,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+c8T0vem0BpUKuZ3w,Feint,Finta,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+cHOS8QtBZtIFt0dK,Iron Fist,Punho de Ferro,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+0xXeAXBSdxSn2IXh,Leader,Líder,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+Z4Dblovfm9p7K6ov,Loremaster,Mestre do Saber,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+Dp5jukcblb1VpiKz,Man-at-arms,Homem-de-Armas,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+TL4TFg3VU6rzJvZH,Marksman,Atirador,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+IrFGqT7S7RspgS2k,Medicus,Médico,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+XI6gH20GPiq3a70h,Natural Warrior,Guerreiro Natural,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+VRl2Y9FcTYNr2rVu,Poisoner,Veneficista,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+9ADKHBJHf0W0r0e9,Polearm Mastery,Maestria em Armas de Haste,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+pcYEnCTdxCuNwcAU,Quick Draw,Saque Rápido,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+IKkpB4eaoE45JMEP,Recovery,Recuperação,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+ZIJxVOR7sMcRXhi1,Ritualist,Ritualista,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+bkcKoPQgOBqrPLKV,Shield Fighter,Combatente de Escudo,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+sjevEC3FMiHPGtVZ,Sixth Sense,Sexto Sentido,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+zXcv7lgYZhJG80tp,Sorcery,Feitiçaria,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+3KAP405a2Gpjd0wp,Steadfast,Inabalável,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+gUHqTBs4XLTzuVK4,Steel Throw,Arremessar Aço,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+tFsHi4XDUicYsisv,Strangler,Estrangulador,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+Coz9yard1YmQ4VLl,Tactician,Tático,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+RqZbwaLIumaP74gw,Theurgy,Teurgia,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+Q76TyJ1XpNGYEV2P,Twin Attack,Ataque Gêmeo,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+4rd9KaOjEJW4mc8c,Witchcraft,Bruxaria,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+K06pXf47TiAPL4GZ,Witchsight,Visão de Bruxa,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+mB7GIj9r8gXL7Mlb,Wizardry,Magismo,ability,Symbaroum - Items / Abilities,,__unique_not_tradeable__
+QNauIwdtAcuVk95V,Armored*,Armadurado,armor,Symbaroum - Items / Armor,,armor-common
+lNkcn3NFl6WnzXmK,Blessed Robe,Robe Abençoado,armor,Symbaroum - Items / Armor,,"armor-common, clothing"
+26CGMmKfcUmlbkZb,Crow Armor,Armadura de Corvo,armor,Symbaroum - Items / Armor,,armor-common
+s2v0UfWOOjptfthm,Full Plate,Armadura Completa,armor,Symbaroum - Items / Armor,,armor-quality
+KdWVhjZDak32ZsQ0,Heavy Armor,Armadura Pesada,armor,Symbaroum - Items / Armor,,armor-quality
+kfJjeT3tNirIDSmP,Lacquered Silk Cuirass,Couraça de Seda Envernizada,armor,Symbaroum - Items / Armor,25 táleres,"armor-common, clothing"
+12llevJNsUV7PhNf,Light Armor,Armadura Leve,armor,Symbaroum - Items / Armor,,armor-common
+PtYYeGSxq6GqhG5f,Medium Armor,Armadura Média,armor,Symbaroum - Items / Armor,,armor-common
+xv8hdPHdp7nWj9s9,Order Cloak,Manto da Ordem,armor,Symbaroum - Items / Armor,10 táleres,"armor-common, clothing"
+MNegBF00uvuNoZW7,Scalemail,Brunea,armor,Symbaroum - Items / Armor,,armor-common
+rooGtkM2d2vzbe5R,Witch Gown,Toga de Bruxa,armor,Symbaroum - Items / Armor,,"armor-common, clothing"
+Ctdho04GYO6hJZ92,Wolf Skin,Pele de Lobo,armor,Symbaroum - Items / Armor,,animals-derived
+clBZJMHsDcd37s9H,Woven Silk,Seda Tecida,armor,Symbaroum - Items / Armor,,"armor-common, clothing"
+hweAa8LAJ0arytXt,Acidic Attack,Ataque Ácido,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+SvDL9aCbpcDyJqMy,Acidic Blood,Sangue Ácido,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+2iLuGUdEyH94EAKo,Alternative Damage,Dano Alternativo,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+Xr7bWs207ZVRpXEj,Armored,Armadurado,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+pCFcpuDc6h3WxtfU,Corrupting Attack,Ataque Corruptivo,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+cjcJgJ6PCMYKw0qB,Enthrall,Enfeitiçar,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+nNUfSfBwADYU9FbW,Gravely Cold,Frio da Tumba,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+XXzAPwIwi1sZ960t,Manifestation,Manifestação,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+5YtJyy2zkjpmb9d6,Natural Weapon,Arma Natural,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+1cwLsLcq6DrhJ8FM,Poison Spit,Cuspir Veneno,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+OI1rqGMxJ8Ah8fEz,Poisonous,Venenoso,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+5ARJy8NPBaFW4ODJ,Regeneration,Regeneração,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+h6XE7fFxVmQWteXY,Robust(M),Robusto (M),trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+xJfGx5IE63WB8Ozl,Spirit form,Forma de Espírito,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+rK5WrHjiZepRkaI8,Swarm,Enxame,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+yYLPZoKxLXTYbh7Y,Terrify,Aterrorizar,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+cdTJAHytCwuHjTxW,Undead,Morto-vivo,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+RG8sDOhRx6RFcKgY,Web,Teia,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+rPZWjT8Cghw9ecSp,Wings,Asas,trait,Symbaroum - Items / Monstrous Traits,,__unique_not_tradeable__
+oBt0B03yuMNzRS3d,Anathema,Anátema,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+ZSIAm5uCTjLjYkkB,Bend Will,Dobrar Vontade,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+xWscyMfxwndsoTjU,Blessed Shield,Escudo Abençoado,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+VHQxSsCgKVbBIME1,Brimstone Cascade,Cascata de Enxofre,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+pfxa2U9HLpoyQl56,Confusion,confusão,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+KGv8NEfMcPSZsMlx,Curse,Maldição,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+5S9tXZp0RjwNsAN0,Entangling Vines,Vinhas Emaranhadoras,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+xHLLWxn4nbwXklY5,Flame Wall,Muralha de Fogo,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+EzGenFOGlE1T7XNm,Holy Aura,Aura Sagrada,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+5Zf0rvfNKh1srldI,Illusory Correction,Correção Ilusória,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+cPMfxaTxJSyoOnLQ,Inherit Wound,Herdar Ferimento,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+fDdJmXN48u9qfVFx,Larvae Boil,Fervilhar Larvas,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+1BaHilrz0UIu6FWC,Lay on Hands,Imposição de Mãos,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+7ode23d6oSAFXK0v,Levitate,Levitação,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+4LMQQJFo4hPTH9oF,Maltransformation,Maltransformação,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+Vx0F67T1otyR7rSH,Mind-throw,Arremesso Mental,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+XBcBClNfgZVjBnUt,Natures Embrace,Abraço da Natureza,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+rVZlaXUtxdNYZLMQ,Prios Burning Glass,Luz Ardente de Prios,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+ooiWiVxrn4T6I72Y,Revenant Strike,Golpe de Regresso,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+Ek3CfyXWTNIJeCti,Shapeshift,Metamorfose,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+3T2O6JVTGczxRpye,Storm Arrow,Flecha de Tempestade,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+5DxCtJF0yOpfse6J,True Form,Forma Verdadeira,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+nyxDNRQY4dQUgfkj,Unholy Aura,Aura Profana,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+WgZsF3HQhOlUA1Ck,Unnoticeable,Imperceptível,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+CgP7Zi06gQRbalKM,Witch Hammer,Martelo Bruxo,mysticalPower,Symbaroum - Items / Powers,,__unique_not_tradeable__
+ESNdn1hIKnuQdgV8,Robust,Robusto,trait,Symbaroum - Items / Traits,,__unique_not_tradeable__
+U8h7RLgYAe1xAcxt,Shapeshifter,Metamorfo,trait,Symbaroum - Items / Traits,,__unique_not_tradeable__
+O6n9XRR5cQXzNvkI,Survival Instinct,Instinto de Sobrevivência,trait,Symbaroum - Items / Traits,,__unique_not_tradeable__
+e7LEyl5JEhlAZPzJ,Arbalest,Arbalesta,weapon,Symbaroum - Items / Weapons,,weapons-quality
+gCBeyTRMOGPfena3,Axe,Machado,weapon,Symbaroum - Items / Weapons,,weapons-common
+6xdyN7d20lQ56NTB,"Bastard Sword, one hand grip",Espada Bastarda (Uma mão),weapon,Symbaroum - Items / Weapons,,weapons-common
+UrWQuXVtRuCmIPCM,"Bastard Sword, two-handed grip",Espada Bastarda (Duas mãos),weapon,Symbaroum - Items / Weapons,,weapons-quality
+JCYy35jS96N8XMGK,Battle claw,Garra de Batalha,weapon,Symbaroum - Items / Weapons,,__unique_not_tradeable__
+9mLIM8mNf49aqPMZ,Bow,Arco,weapon,Symbaroum - Items / Weapons,5 Táleres,weapons-common
+gEQkYFlOOGIy7hkZ,Buckler,Broquél,equipment,Symbaroum - Items / Weapons,,scrap-trade-goods
+7RMdTdpmOza7EyUJ,Crossbow,Besta,weapon,Symbaroum - Items / Weapons,,weapons-quality
+PE90UeGnDamLvJZV,Crow’s Beak,Bico de Corvo,weapon,Symbaroum - Items / Weapons,,weapons-quality
+FHWSSssHUW2Lq2B5,Dagger,Adaga,weapon,Symbaroum - Items / Weapons,,weapons-common
+kIUZVcKG09q5swg4,Double-axe,Machado Duplo,weapon,Symbaroum - Items / Weapons,,weapons-quality
+UHOdegP8BBdnsC4e,Fencing Sword,Espada de Duelo,weapon,Symbaroum - Items / Weapons,,weapons-quality
+56NT9GO8UmMp3KWY,Flail,Mangual,weapon,Symbaroum - Items / Weapons,,weapons-common
+Ahy0g1o7PRaj7aXQ,Halberd,Alabarda,weapon,Symbaroum - Items / Weapons,,weapons-quality
+zY1H921k6ZBBfWfr,Heavy flail,Mangual Pesado,weapon,Symbaroum - Items / Weapons,,weapons-quality
+gx54LbJsZotM4Zjj,Heavy weapon,Armas Pesadas,weapon,Symbaroum - Items / Weapons,,weapons-quality
+Nys4C4kv7ydREFWs,Long Weapon,Arma Longa,weapon,Symbaroum - Items / Weapons,3 táleres,weapons-common
+jnBc6K1OdI3sWTcg,Longbow,Arco Longo,weapon,Symbaroum - Items / Weapons,,weapons-quality
+1feDViTmpoBFOhuP,Parrying Dagger,Adaga de Aparar,weapon,Symbaroum - Items / Weapons,,weapons-quality
+eSK7RcKvxgxx9DU2,Pike,Pique,weapon,Symbaroum - Items / Weapons,,weapons-quality
+pYdwEgmxs25RlM80,Quarterstaff,Bordão,weapon,Symbaroum - Items / Weapons,,weapons-common
+moRBVBskgvJJIb07,Shield,Escudo,weapon,Symbaroum - Items / Weapons,,armor-common
+wWMqJbYvXQvngR27,Sling,Funda,weapon,Symbaroum - Items / Weapons,,weapons-common
+xiFXupwnoVkakS9w,Spear Sling,Lança-Funda,weapon,Symbaroum - Items / Weapons,,weapons-quality
+jmRCAoM2lrSI5YI3,Spiked club,Clava com Cravos,weapon,Symbaroum - Items / Weapons,,weapons-common
+jpB86sw9zVTopOTS,Steel shield,Escudo de Aço,weapon,Symbaroum - Items / Weapons,15 táleres,armor-common
+S31q5Ny3GM9BYR5Z,Stiletto,Estilete,weapon,Symbaroum - Items / Weapons,,weapons-quality
+Y1UoszLvPUDGiXFa,Sword,Espada,weapon,Symbaroum - Items / Weapons,5 táleres,weapons-common
+ARCB2E7C9O1qvAe5,Throwing axe,Machado de Arremesso,weapon,Symbaroum - Items / Weapons,,weapons-common
+ymUVZvEq0gB3zrwx,Throwing knife,Faca de Arremesso,weapon,Symbaroum - Items / Weapons,,weapons-common
+XByttSY46RnPZ4Kv,Unarmed combat,Combate Desarmado,weapon,Symbaroum - Items / Weapons,,__unique_not_tradeable__

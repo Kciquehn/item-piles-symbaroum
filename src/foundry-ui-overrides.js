@@ -6,7 +6,7 @@ import ItemEditor from "./applications/item-editor/item-editor.js";
 import SETTINGS from "./constants/settings.js";
 import CONSTANTS from "./constants/constants.js";
 import UserSelectDialog from "./applications/dialogs/user-select-dialog/user-select-dialog.js";
-import { getSymbaroumItemCategory } from "./helpers/symbaroum-item-categories.js";
+import { getSymbaroumItemCategories } from "./helpers/symbaroum-item-categories.js";
 
 export let fastToolTip = null;
 
@@ -39,17 +39,21 @@ function renderSymbaroumItemGroupSelector(itemSheet, html) {
 		.filter(group => group?.id && group?.name)
 		.sort((a, b) => a.name.localeCompare(b.name));
 
-	const currentCategory = getSymbaroumItemCategory(item);
+	const currentCategories = new Set(getSymbaroumItemCategories(item));
 	const wrapper = document.createElement("div");
 	wrapper.className = "attribute item-piles-symbaroum-item-group";
 
 	const label = document.createElement("label");
-	label.textContent = "Grupo comercial";
+	label.textContent = "Grupos comerciais";
 	label.htmlFor = `${item.id}-item-piles-symbaroum-item-group`;
 	wrapper.append(label);
+	wrapper.append(createSymbaroumItemGroupPicker(item, itemGroups, currentCategories));
 
 	const select = document.createElement("select");
 	select.id = `${item.id}-item-piles-symbaroum-item-group`;
+	select.style.display = "none";
+	select.multiple = true;
+	select.size = 4;
 	select.innerHTML = `
 		<option value="${CONSTANTS.UNIQUE_ITEM_CATEGORY}">Único/Não Comerciável</option>
 	`;
@@ -61,10 +65,18 @@ function renderSymbaroumItemGroupSelector(itemSheet, html) {
 		option.textContent = group.name;
 		select.append(option);
 	}
-	select.value = currentCategory;
+	for (const option of select.options) {
+		option.selected = currentCategories.has(option.value);
+	}
 	select.addEventListener("change", async event => {
-		const value = event.currentTarget.value;
-		const isUnique = value === CONSTANTS.UNIQUE_ITEM_CATEGORY;
+		let value = Array.from(event.currentTarget.selectedOptions).map(option => option.value);
+		const isUnique = value.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY);
+		if (isUnique) {
+			value = [CONSTANTS.UNIQUE_ITEM_CATEGORY];
+			for (const option of event.currentTarget.options) {
+				option.selected = option.value === CONSTANTS.UNIQUE_ITEM_CATEGORY;
+			}
+		}
 		await item.update({
 			[CONSTANTS.FLAGS.CUSTOM_CATEGORY]: value,
 			[`${CONSTANTS.FLAGS.ITEM}.notForSale`]: isUnique,
@@ -75,6 +87,105 @@ function renderSymbaroumItemGroupSelector(itemSheet, html) {
 	const bonusTab = root.querySelector('.tab[data-tab="bonus"], [data-group="primary"][data-tab="bonus"]');
 	const target = bonusTab?.querySelector(".bonus.foreground.border, .bonus") ?? root.querySelector(".bonus.foreground.border, .bonus") ?? root.querySelector("form") ?? root;
 	target.append(wrapper);
+}
+
+function createSymbaroumItemGroupPicker(item, itemGroups, currentCategories) {
+	const details = document.createElement("details");
+	details.style.width = "100%";
+	details.style.minWidth = "0";
+	details.style.textAlign = "left";
+
+	const summary = document.createElement("summary");
+	summary.style.cursor = "pointer";
+	summary.style.padding = "2px 6px";
+	summary.style.minHeight = "22px";
+	summary.style.background = "rgba(255, 255, 255, 0.7)";
+	summary.style.color = "#111";
+	summary.textContent = getSelectedCategorySummary(itemGroups, currentCategories);
+	details.append(summary);
+
+	const list = document.createElement("div");
+	list.style.maxHeight = "180px";
+	list.style.overflowY = "auto";
+	list.style.padding = "4px 6px";
+	list.style.background = "rgba(255, 255, 255, 0.92)";
+	list.style.color = "#111";
+	list.style.border = "1px solid rgba(0, 0, 0, 0.35)";
+	list.style.display = "grid";
+	list.style.gap = "2px";
+	details.append(list);
+
+	const options = [
+		{ id: CONSTANTS.UNIQUE_ITEM_CATEGORY, name: "Único/Não Comerciável" },
+		...itemGroups
+	];
+	for (const group of options) {
+		const row = document.createElement("label");
+		row.style.display = "grid";
+		row.style.gridTemplateColumns = "18px minmax(0, 1fr)";
+		row.style.gap = "6px";
+		row.style.alignItems = "center";
+		row.style.margin = "0";
+		row.style.padding = "3px 4px";
+		row.style.lineHeight = "1.2";
+		row.style.color = "#111";
+		row.style.background = "#fff";
+		row.style.borderBottom = "1px solid rgba(0, 0, 0, 0.12)";
+
+		const input = document.createElement("input");
+		input.type = "checkbox";
+		input.value = group.id;
+		input.checked = currentCategories.has(group.id);
+		input.style.margin = "0";
+		input.style.width = "14px";
+		input.style.height = "14px";
+		row.append(input);
+
+		const text = document.createElement("span");
+		text.textContent = group.name;
+		text.style.overflow = "hidden";
+		text.style.textOverflow = "ellipsis";
+		row.append(text);
+		list.append(row);
+	}
+
+	list.addEventListener("change", async event => {
+		const target = event.target;
+		if (!(target instanceof HTMLInputElement)) return;
+		if (target.value === CONSTANTS.UNIQUE_ITEM_CATEGORY && target.checked) {
+			for (const input of list.querySelectorAll("input")) {
+				input.checked = input === target;
+			}
+		} else if (target.checked) {
+			const uniqueInput = list.querySelector(`input[value="${CONSTANTS.UNIQUE_ITEM_CATEGORY}"]`);
+			if (uniqueInput) uniqueInput.checked = false;
+		}
+		let value = Array.from(list.querySelectorAll("input:checked")).map(input => input.value);
+		if (!value.length) {
+			value = [CONSTANTS.UNIQUE_ITEM_CATEGORY];
+			const uniqueInput = list.querySelector(`input[value="${CONSTANTS.UNIQUE_ITEM_CATEGORY}"]`);
+			if (uniqueInput) uniqueInput.checked = true;
+		}
+		const isUnique = value.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY);
+		summary.textContent = getSelectedCategorySummary(itemGroups, new Set(value));
+		await item.update({
+			[CONSTANTS.FLAGS.CUSTOM_CATEGORY]: value,
+			[`${CONSTANTS.FLAGS.ITEM}.notForSale`]: isUnique,
+			[`${CONSTANTS.FLAGS.ITEM}.cantBeSoldToMerchants`]: isUnique
+		});
+	});
+
+	return details;
+}
+
+function getSelectedCategorySummary(itemGroups, categories) {
+	if (categories.has(CONSTANTS.UNIQUE_ITEM_CATEGORY)) return "Único/Não Comerciável";
+	const names = itemGroups
+		.filter(group => categories.has(group.id))
+		.map(group => group.name);
+	if (!names.length) return "Nenhum grupo selecionado";
+	if (names.length <= 2) return names.join(", ");
+	return `${names.slice(0, 2).join(", ")} +${names.length - 2}`;
 }
 
 function handleTokenBorders(token) {

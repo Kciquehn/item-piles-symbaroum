@@ -13,7 +13,10 @@
 	import CONSTANTS from "../../constants/constants.js";
 	import CustomCategoryInput from "../components/CustomCategoryInput.svelte";
 	import merchantCatalog from "../../data/symbaroum-sellable-items.json";
-	import { getSymbaroumItemCategory } from "../../helpers/symbaroum-item-categories.js";
+	import {
+		getSymbaroumItemCategories,
+		itemHasSymbaroumCategory
+	} from "../../helpers/symbaroum-item-categories.js";
 
 	export let store;
 
@@ -113,8 +116,8 @@
 		return foundry.utils.getProperty(item, game.itempiles.API.ITEM_PRICE_ATTRIBUTE) ?? "";
 	}
 
-	function getWorldItemCustomCategory(item) {
-		return getSymbaroumItemCategory(item);
+	function getWorldItemCustomCategories(item) {
+		return getSymbaroumItemCategories(item);
 	}
 
 	function getFolderAndChildIds(folderId) {
@@ -139,7 +142,7 @@
 			cost: getWorldItemCost(item),
 			reference: foundry.utils.getProperty(item, "system.reference") ?? "",
 			state: foundry.utils.getProperty(item, "system.state") ?? "",
-			customCategory: getWorldItemCustomCategory(item),
+			customCategories: getWorldItemCustomCategories(item),
 			img: item.img,
 			uuid: item.uuid,
 			folderId: item.folder?.id ?? "",
@@ -153,6 +156,21 @@
 		return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
 
+	function rollInteger(min, max) {
+		return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+
+	function randomizeSymbaroumPriceRange(price) {
+		const source = String(price ?? "").trim();
+		const match = source.match(/(\d+)\s*(?:-|–|—|−)\s*(\d+)\s*(t[aá]ler(?:es)?|thaler(?:s)?|xelim(?:s)?|shilling(?:s)?|ortega(?:s)?|orteg(?:s)?)/i);
+		if (!match) return null;
+		const min = Number(match[1]);
+		const max = Number(match[2]);
+		if (!Number.isFinite(min) || !Number.isFinite(max)) return null;
+		const amount = rollInteger(Math.min(min, max), Math.max(min, max));
+		return `${amount} ${match[3].toLowerCase()}`;
+	}
+
 	function shuffleItems(items) {
 		const shuffled = [...items];
 		for (let index = shuffled.length - 1; index > 0; index--) {
@@ -164,17 +182,12 @@
 
 	function itemMatchesPool(item, pool) {
 		if (pool.enabled === false) return false;
-		const itemCategory = item.customCategory || getSymbaroumItemCategory(item);
-		if (itemCategory === CONSTANTS.UNIQUE_ITEM_CATEGORY) return false;
-		if (itemCategory) {
-			const category = itemCategory.toLowerCase();
-			return category === String(pool.groupId ?? pool.id ?? "").toLowerCase()
-				|| category === String(pool.name ?? "").toLowerCase()
-				|| (Array.isArray(pool.customCategories) && pool.customCategories.some(entry => category === String(entry).toLowerCase()));
-		}
+		const itemCategories = item.customCategories ?? getSymbaroumItemCategories(item);
+		if (itemCategories.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY)) return false;
+		if (itemCategories.length) return itemHasSymbaroumCategory({ ...item, customCategories: itemCategories }, pool);
 		if (Array.isArray(pool.itemTypes) && pool.itemTypes.length && !pool.itemTypes.includes(item.type)) return false;
 		if (Array.isArray(pool.customCategories) && pool.customCategories.length) {
-			if (!item.customCategory || !pool.customCategories.some(category => category.toLowerCase() === item.customCategory.toLowerCase())) return false;
+			if (!itemCategories.length || !itemHasSymbaroumCategory({ ...item, customCategories: itemCategories }, pool)) return false;
 		}
 		if (Array.isArray(pool.sourceModules) && pool.sourceModules.length && !pool.sourceModules.includes(item.moduleId)) return false;
 		const folderIds = getAllowedWorldFolderIds(pool);
@@ -197,8 +210,8 @@
 		const worldItems = getWorldItems();
 		const matches = selectedItems.size
 			? [
-				...worldItems.filter(item => item.customCategory !== CONSTANTS.UNIQUE_ITEM_CATEGORY && selectedItems.has(getItemKey(item))),
-				...worldItems.filter(item => item.customCategory && itemMatchesPool(item, pool)),
+				...worldItems.filter(item => !item.customCategories?.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY) && selectedItems.has(getItemKey(item))),
+				...worldItems.filter(item => item.customCategories?.length && itemMatchesPool(item, pool)),
 				...merchantCatalog.filter(item => selectedItems.has(getCatalogKey(item)))
 			]
 			: (() => {
@@ -247,16 +260,25 @@
 						: null;
 				const itemData = item ?? foundry.utils.deepClone(sourceItem.itemData);
 				if (!itemData) continue;
+				const randomizedPrice = randomizeSymbaroumPriceRange(sourceItem.cost ?? foundry.utils.getProperty(itemData, game.itempiles.API.ITEM_PRICE_ATTRIBUTE));
+				const generatedItemData = randomizedPrice && item instanceof Item
+					? item.toObject()
+					: itemData;
+				if (randomizedPrice) {
+					foundry.utils.setProperty(generatedItemData, game.itempiles.API.ITEM_PRICE_ATTRIBUTE, randomizedPrice);
+				}
 
 				const generatedItem = {
 					description: sourceItem.name,
 					documentUuid: sourceItem.uuid,
-					img: sourceItem.img || itemData.img,
-					item: itemData,
+					img: sourceItem.img || generatedItemData.img,
+					item: generatedItemData,
 					quantity: randomQuantity(pool)
 				};
 
-				if (item instanceof Item) {
+				if (randomizedPrice) {
+					generatedItem.price = randomizedPrice;
+				} else if (item instanceof Item) {
 					const prices = game.itempiles.API.getPricesForItem(item, { seller: store.actor });
 					generatedItem.price = prices[0]?.free ? localize("ITEM-PILES.Merchant.ItemFree") : prices[0]?.priceString;
 				} else {

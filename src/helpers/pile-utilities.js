@@ -872,8 +872,11 @@ export function getMerchantModifiersForActor(merchant, {
 				? -1
 				: 0)
 			.find(priceData => {
+				const customCategories = Array.isArray(itemFlagData.customCategory)
+					? itemFlagData.customCategory
+					: [itemFlagData.customCategory].filter(Boolean);
 				return priceData.type === "custom"
-					? priceData.category.toLowerCase() === itemFlagData.customCategory.toLowerCase()
+					? customCategories.some(category => priceData.category.toLowerCase() === String(category).toLowerCase())
 					: priceData.type === item.type;
 			});
 		if (itemTypePriceModifier) {
