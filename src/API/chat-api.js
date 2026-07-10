@@ -202,8 +202,8 @@ export default class ChatAPI {
 	static async _outputMerchantTradeComplete(source, target, priceInformation, userId, interactionId) {
 		if (!Helpers.getSetting(SETTINGS.OUTPUT_TO_CHAT)) return;
 		if (!PileUtilities.isItemPileMerchant(source) && !PileUtilities.isItemPileMerchant(target)) return;
-		if (!interactionId || game.user.id !== userId || !Helpers.getSetting(SETTINGS.OUTPUT_TO_CHAT)) return;
-		return ItemPileSocket.executeAsGM(ItemPileSocket.HANDLERS.MERCHANT_TRADE_CHAT_MESSAGE, source.uuid, target.uuid, priceInformation, userId, interactionId);
+		if (!Helpers.isResponsibleGM()) return;
+		return this._outputMerchantTradeToChat(source.uuid, target.uuid, priceInformation, userId, interactionId || foundry.utils.randomID());
 	}
 
 	/**
