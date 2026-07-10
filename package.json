@@ -13,9 +13,10 @@
   "bugs": {
     "url": "https://github.com/Kciquehn/item-piles-symbaroum/issues"
   },
-  "author": "Fantasy Computerworks (https://github.com/fantasycalendar)",
+  "author": "Kciquehn (https://github.com/Kciquehn)",
   "contributors": [
-    "Wasp <adam@fantasy-calendar.com> (https://github.com/haxxer)"
+    "Wasp <adam@fantasy-calendar.com> (https://github.com/haxxer)",
+    "Fantasy Computerworks (https://github.com/fantasycalendar)"
   ],
   "imports": {
     "#runtime/*": "@typhonjs-fvtt/runtime/*",

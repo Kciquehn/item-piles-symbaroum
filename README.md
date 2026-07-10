@@ -1,13 +1,24 @@
 # Item Piles: Symbaroum
 
-A Symbaroum-focused version of Item Piles for Foundry VTT.
+Item Piles: Symbaroum is a Symbaroum-focused version of Item Piles for Foundry VTT. It keeps the loot, container, merchant, trading, and vault workflows from Item Piles while adding defaults and tools built for Symbaroum tables.
 
-This module keeps the Item Piles loot, container, merchant, trading, and vault workflows while registering Symbaroum defaults out of the box:
+## Features
 
-- Item quantity: `system.number`
-- Item price: `system.cost`
-- Currency attributes: `system.money.thaler`, `system.money.shilling`, and `system.money.orteg`
-- Filtered non-loot item types: abilities, boons, burdens, mystical powers, rituals, and traits
+- Symbaroum system support registered out of the box.
+- Portuguese currency labels for Táler/Táleres, Xelim/Xelins, and Ortega/Ortegas.
+- Item quantity and price handling for Symbaroum item data.
+- Merchant stock generation using configurable commercial item groups.
+- Support for official and generic Symbaroum merchant presets.
+- Commercial item groups on item sheets so GMs can mark what each item can be sold as.
+- Randomized stock quantities and randomized price ranges such as `1-5 Ortegas`.
+
+## Installation
+
+Use this manifest URL in Foundry VTT:
+
+```text
+https://github.com/Kciquehn/item-piles-symbaroum/releases/latest/download/module.json
+```
 
 ## Requirements
 

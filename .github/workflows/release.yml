@@ -31,15 +31,8 @@ jobs:
       - name: Create module archive
         run: |
           mkdir -p package/item-piles-symbaroum
-          rsync -av \
-            --exclude ".git" \
-            --exclude ".github" \
-            --exclude ".codex" \
-            --exclude ".agents" \
-            --exclude "node_modules" \
-            --exclude "package" \
-            --exclude "*.zip" \
-            ./ package/item-piles-symbaroum/
+          cp module.json LICENSE README.md changelog.md package/item-piles-symbaroum/
+          cp -R dist languages templates systems package/item-piles-symbaroum/
           cd package
           zip -r ../item-piles-symbaroum.zip item-piles-symbaroum
 

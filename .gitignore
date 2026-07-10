@@ -1,6 +1,9 @@
 node_modules/
 .codex/
 .agents/
+(2).git/
+package/
+*.zip
 .env
 .env.*
 npm-debug.log*
