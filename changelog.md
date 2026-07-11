@@ -1,5 +1,11 @@
 # Item Piles Changelog
 
+## Item Piles: Symbaroum 1.0.6
+
+- Added a bundled service image for Symbaroum service compendium items.
+- Added Symbaroum service compendium entries for lodging, rent, explorer licenses, hirelings, tolls, professional services, and related expenses.
+- Updated the service compendium generator and release package to include module assets.
+
 ## Version 3.3.2
 
 - Fixed (temporarily) the Settings app crashing on systems whose DataModel schemas throw during initialisation (e.g. PF2e)

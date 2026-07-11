@@ -32,7 +32,7 @@ jobs:
         run: |
           mkdir -p package/item-piles-symbaroum
           cp module.json LICENSE README.md changelog.md package/item-piles-symbaroum/
-          cp -R dist languages templates systems packs package/item-piles-symbaroum/
+          cp -R assets dist languages templates systems packs package/item-piles-symbaroum/
           cd package
           zip -r ../item-piles-symbaroum.zip item-piles-symbaroum
 
