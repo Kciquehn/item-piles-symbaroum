@@ -84,13 +84,14 @@ export class VaultStore extends ItemPileStore {
 
 		logEntries.map(log => {
 
-			let instigator = log.actor || "Unknown character";
+			let instigator = Helpers.escapeHtml(log.actor || "Unknown character");
 			if (pileData.vaultLogType === "user_actor") {
 				instigator = game.i18n.format("ITEM-PILES.Vault.LogUserActor", {
-					actor_name: log.actor || "Unknown character", user_name: game.users.get(log.user)?.name ?? "unknown user",
+					actor_name: Helpers.escapeHtml(log.actor || "Unknown character"),
+					user_name: Helpers.escapeHtml(game.users.get(log.user)?.name ?? "unknown user"),
 				})
 			} else if (pileData.vaultLogType === "user") {
-				instigator = game.users.get(log.user)?.name ?? "unknown user";
+				instigator = Helpers.escapeHtml(game.users.get(log.user)?.name ?? "unknown user");
 			}
 
 			const quantity = Math.abs(log.qty) > 1 ? game.i18n.format("ITEM-PILES.Vault.LogQuantity", { quantity: Math.abs(log.qty) }) : "";
@@ -102,7 +103,10 @@ export class VaultStore extends ItemPileStore {
 			const action = log.action === "withdrew" || log.action === "deposited" ? game.i18n.localize("ITEM-PILES.Vault." + (log.action.slice(0, 1).toUpperCase() + log.action.slice(1))) : log.action;
 
 			log.text = game.i18n.format("ITEM-PILES.Vault.LogEntry", {
-				instigator, action: `<span>${action}</span>`, quantity: quantity, item_name: `<strong>${log.name}</strong>`,
+				instigator,
+				action: `<span>${Helpers.escapeHtml(action)}</span>`,
+				quantity,
+				item_name: `<strong>${Helpers.escapeHtml(log.name)}</strong>`,
 			})
 			log.visible = true;
 

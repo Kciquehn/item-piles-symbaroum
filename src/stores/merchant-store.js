@@ -332,11 +332,13 @@ export default class MerchantStore extends ItemPileStore {
 			let instigator;
 			if (log.actor !== undefined) {
 				instigator = game.i18n.format("ITEM-PILES.Merchant.LogUserActor", {
-					actor_name: log.actor || "Unknown character", user_name: game.users.get(log.user)?.name ?? "unknown user",
+					actor_name: Helpers.escapeHtml(log.actor || "Unknown character"),
+					user_name: Helpers.escapeHtml(game.users.get(log.user)?.name ?? "unknown user"),
 				})
 			} else {
-				instigator = game.users.get(log.user)?.name ?? "unknown user";
+				instigator = Helpers.escapeHtml(game.users.get(log.user)?.name ?? "unknown user");
 			}
+			const itemName = Helpers.escapeHtml(log.item);
 
 			if (log.property) {
 
@@ -345,7 +347,7 @@ export default class MerchantStore extends ItemPileStore {
 					"hidden": ["ITEM-PILES.Merchant.LogSetHidden", "ITEM-PILES.Merchant.LogSetVisible"]
 				}
 
-				log.text = localize(properties[log.property][Number(log.value)], { instigator, item: log.item });
+				log.text = localize(properties[log.property][Number(log.value)], { instigator, item: itemName });
 
 				log.class = log.value ? "item-piles-log-positive" : "item-piles-log-negative";
 
@@ -360,7 +362,11 @@ export default class MerchantStore extends ItemPileStore {
 					: "ITEM-PILES.Merchant.LogFreeTransaction";
 
 				log.text = localize(localization, {
-					instigator, quantity, item: `<strong>${log.item}</strong>`, action: `<span>${action}</span>`, price: log.price
+					instigator,
+					quantity,
+					item: `<strong>${itemName}</strong>`,
+					action: `<span>${Helpers.escapeHtml(action)}</span>`,
+					price: Helpers.escapeHtml(log.price)
 				});
 
 				log.class = log.sold ? "item-piles-log-sold" : "item-piles-log-bought";
@@ -368,7 +374,7 @@ export default class MerchantStore extends ItemPileStore {
 			} else {
 
 				log.text = localize("ITEM-PILES.Merchant.LogSetQuantity", {
-					instigator, quantity: Math.abs(log.qty), item: `<strong>${log.item}</strong>`
+					instigator, quantity: Math.abs(log.qty), item: `<strong>${itemName}</strong>`
 				});
 
 				log.class = "item-piles-log-other";

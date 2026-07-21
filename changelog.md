@@ -1,5 +1,20 @@
 # Item Piles Changelog
 
+## Item Piles: Symbaroum 1.1.0
+
+- Rebuilt the official Symbaroum item catalog from Core Rulebook, Adventure Collection, Monster Codex, Wrath of the Warden, and Game Master's Guide content.
+- Classified 792 catalog items and 3,041 embedded Actor item instances without leaving uncategorized records.
+- Added conflict-safe ID and normalized-name lookup while preserving item categories customized by the GM.
+- Added migration from the previous official catalog only when the stored category set still matches the old default.
+- Added reproducible catalog audit and generation tools.
+- Added release metadata validation and continuous validation workflows for Foundry VTT 13/14 packaging.
+- Hardened GitHub Actions by pinning third-party actions and reducing default workflow permissions.
+- Escaped item, Actor, and user names before rendering merchant and vault activity logs.
+- Removed the automatic external Ko-fi image request and replaced the inherited D&D 5e welcome message with localized Symbaroum guidance.
+- Marked compendium LevelDB files as binary data to prevent line-ending conversion in development checkouts.
+- Expanded public documentation, contribution guidance, security reporting, privacy details, and release instructions.
+- Updated compatible dependency versions and ignored local assistant context, secrets, audit exports, caches, and release artifacts.
+
 ## Item Piles: Symbaroum 1.0.6
 
 - Added a bundled service image for Symbaroum service compendium items.

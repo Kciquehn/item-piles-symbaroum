@@ -1,12 +1,51 @@
-node_modules/
-.codex/
-.agents/
-(2).git/
-package/
-*.zip
+# Dependencies and build caches
+/node_modules/
+/.vite-cache/
+/coverage/
+/.nyc_output/
+/package/
+/*.zip
+*.tsbuildinfo
+
+# Local secrets
 .env
 .env.*
+!.env.example
+
+# Local AI assistant context
+/.agents/
+/.chatgpt/
+/.claude/
+/.codex/
+/.cursor/
+/.gemini/
+/.openai/
+/.windsurf/
+/chatgpt/
+/AGENTS.md
+/AGENTS.override.md
+/CLAUDE.md
+/GEMINI.md
+/codex-*
+
+# Local audit exports; the runtime catalog lives in src/data/
+/generated/symbaroum-official-module-categories-audit.csv
+/generated/symbaroum-official-module-categories-summary.json
+/generated/symbaroum-official-modules-*.csv
+/generated/symbaroum-official-modules-*.json
+
+# Logs and editor metadata
 npm-debug.log*
-*.tsbuildinfo
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+/.idea/
+/.vscode/
+
+# Operating system files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Accidental nested repository created by desktop Git clients
+/(2).git/

@@ -147,19 +147,20 @@
 					<p>
 					<p style="margin-bottom:1rem;">
 						<a class="link-text"
-						   href="https://github.com/fantasycalendar/FoundryVTT-ItemPiles/issues/new?assignees=&labels=&template=feature_request.md&title="
+						   href="https://github.com/Kciquehn/item-piles-symbaroum/issues/new"
 						   target="_blank"
+						   rel="noopener noreferrer"
 						>{localize("ITEM-PILES.Applications.Settings.Request")}</a>
 					</p>
 					<p>
 						{localize("ITEM-PILES.Applications.Settings.Donate")}
 					</p>
 					<p>
-						<a href="https://ko-fi.com/fantasycomputerworks" style="text-decoration: none !important;" target="_blank">
-							<button class="donate-button" type="button">
-								<img src="https://storage.ko-fi.com/cdn/cup-border.png">
-								<span>Donate</span>
-							</button>
+						<a href="https://ko-fi.com/fantasycomputerworks"
+						   class="donate-button"
+						   target="_blank"
+						   rel="noopener noreferrer">
+							<span>Donate</span>
 						</a>
 					</p>
 				</div>
@@ -254,13 +255,7 @@
     display: flex;
     margin: 10px auto;
 
-    img {
-      border: 0;
-      width: 39px;
-    }
-
     span {
-      margin-left: 8px;
       color: white !important;
     }
   }

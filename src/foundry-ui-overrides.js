@@ -54,9 +54,10 @@ function renderSymbaroumItemGroupSelector(itemSheet, html) {
 	select.style.display = "none";
 	select.multiple = true;
 	select.size = 4;
-	select.innerHTML = `
-		<option value="${CONSTANTS.UNIQUE_ITEM_CATEGORY}">Único/Não Comerciável</option>
-	`;
+	const uniqueOption = document.createElement("option");
+	uniqueOption.value = CONSTANTS.UNIQUE_ITEM_CATEGORY;
+	uniqueOption.textContent = "Único/Não Comerciável";
+	select.append(uniqueOption);
 	wrapper.append(select);
 
 	for (const group of itemGroups) {
@@ -486,7 +487,7 @@ class FastTooltipManager extends (foundry?.helpers?.interaction?.TooltipManager?
 		this.#active = true;
 		this.element = element;
 		element.setAttribute("aria-describedby", "fast-tooltip");
-		this.tooltip.innerHTML = text || game.i18n.localize(element.dataset.fastTooltip);
+		this.tooltip.textContent = text || game.i18n.localize(element.dataset.fastTooltip);
 
 		// Activate display of the tooltip
 		this.tooltip.removeAttribute("class");

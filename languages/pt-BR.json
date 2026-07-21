@@ -1012,6 +1012,13 @@
         "Label": "Configurar Categorias de Comerciantes",
         "Hint": "Configure tipos de comerciantes e os grupos de itens que eles podem usar ao gerar estoque."
       }
+    },
+    "Symbaroum": {
+      "Welcome": {
+        "Title": "Item Piles: Symbaroum",
+        "Body": "Moedas, grupos comerciais, geração de estoque, modelos de comerciantes e o compêndio de serviços estão prontos para uso. Revise as configurações do módulo antes de criar seu primeiro comerciante.",
+        "Documentation": "Abrir documentação"
+      }
     }
   }
 }

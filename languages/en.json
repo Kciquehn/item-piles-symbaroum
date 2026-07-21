@@ -1017,6 +1017,13 @@
         "Label": "Configure Merchant Categories",
         "Hint": "Configure merchant types and the item pools they can use when generating stock."
       }
+    },
+    "Symbaroum": {
+      "Welcome": {
+        "Title": "Item Piles: Symbaroum",
+        "Body": "Symbaroum currencies, commercial groups, stock generation, merchant presets, and the services compendium are ready to use. Review the module settings before creating your first merchant.",
+        "Documentation": "Open documentation"
+      }
     }
   }
 }

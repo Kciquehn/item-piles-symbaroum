@@ -1,5 +1,6 @@
 import CONSTANTS from "../constants/constants.js";
 import {
+	SYMBAROUM_LEGACY_OFFICIAL_ITEM_CATEGORIES_BY_ID,
 	SYMBAROUM_OFFICIAL_ITEM_CATEGORIES_BY_ID,
 	SYMBAROUM_OFFICIAL_ITEM_CATEGORIES_BY_NAME
 } from "../data/symbaroum-official-item-categories.js";
@@ -126,6 +127,15 @@ function getOfficialCategories(item) {
 	}
 	const name = normalize(item?.name ?? item?.itemData?.name ?? "");
 	return SYMBAROUM_OFFICIAL_ITEM_CATEGORIES_BY_NAME[name] ?? [];
+}
+
+export function getLegacyOfficialSymbaroumItemCategories(item) {
+	for (const id of getItemIds(item)) {
+		if (SYMBAROUM_LEGACY_OFFICIAL_ITEM_CATEGORIES_BY_ID[id]) {
+			return uniqueCategories(SYMBAROUM_LEGACY_OFFICIAL_ITEM_CATEGORIES_BY_ID[id]);
+		}
+	}
+	return [];
 }
 
 function matchesAny(text, terms) {

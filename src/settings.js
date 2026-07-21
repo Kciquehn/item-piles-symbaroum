@@ -7,7 +7,10 @@ import { TJSDialog } from "#runtime/svelte/application";
 import CustomDialog from "./applications/components/CustomDialog.svelte";
 import SYMBAROUM_MERCHANT_CATEGORIES from "./data/symbaroum-merchant-categories.js";
 import SYMBAROUM_ITEM_GROUPS from "./data/symbaroum-item-groups.js";
-import { getDefaultSymbaroumItemCategories } from "./helpers/symbaroum-item-categories.js";
+import {
+	getDefaultSymbaroumItemCategories,
+	getLegacyOfficialSymbaroumItemCategories
+} from "./helpers/symbaroum-item-categories.js";
 
 export function registerSettings() {
 
@@ -268,7 +271,7 @@ export async function patchItemGroups() {
 }
 
 export async function patchWorldItemCategories() {
-	if (game.system.id !== "symbaroum" || !game.user.isGM) return;
+	if (game.system.id !== "symbaroum" || !Helpers.isResponsibleGM()) return;
 
 	const updates = [];
 	for (const item of game.items ?? []) {
@@ -278,6 +281,7 @@ export async function patchWorldItemCategories() {
 			? currentValue.filter(Boolean)
 			: currentValue ? [currentValue] : [];
 		const defaultCategories = getDefaultSymbaroumItemCategories(item);
+		const legacyOfficialCategories = getLegacyOfficialSymbaroumItemCategories(item);
 		const currentIsOnlyUnique = currentCategories.length === 1
 			&& currentCategories[0] === CONSTANTS.UNIQUE_ITEM_CATEGORY;
 		const defaultIsUnique = defaultCategories.includes(CONSTANTS.UNIQUE_ITEM_CATEGORY);
@@ -288,7 +292,13 @@ export async function patchWorldItemCategories() {
 			"survival-gear",
 			"animals"
 		].includes(category));
-		const shouldUpdate = !currentCategories.length || hasLegacyCategory || (currentIsOnlyUnique && !defaultIsUnique);
+		const matchesLegacyOfficialCategories = legacyOfficialCategories.length
+			&& currentCategories.length === legacyOfficialCategories.length
+			&& currentCategories.every(category => legacyOfficialCategories.includes(category));
+		const shouldUpdate = !currentCategories.length
+			|| hasLegacyCategory
+			|| matchesLegacyOfficialCategories
+			|| (currentIsOnlyUnique && !defaultIsUnique);
 		if (!shouldUpdate) continue;
 
 		updates.push(item.update({

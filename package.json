@@ -1,7 +1,7 @@
 {
   "name": "item-piles-symbaroum",
-  "version": "1.0.6",
-  "description": "A Symbaroum-focused version of Item Piles for Foundry VTT.",
+  "version": "1.1.0",
+  "description": "Integração comunitária do Item Piles com Symbaroum para Foundry VTT.",
   "license": "MIT",
   "private": false,
   "type": "module",
@@ -40,8 +40,13 @@
     "not IE 11"
   ],
   "scripts": {
+    "audit:symbaroum-items": "node tools/audit-symbaroum-module-items.mjs",
+    "generate:symbaroum-categories": "node tools/generate-symbaroum-module-categories.mjs",
+    "refresh:symbaroum-categories": "npm run audit:symbaroum-items && npm run generate:symbaroum-categories",
+    "generate:services": "node tools/generate-symbaroum-services-pack.mjs",
     "prebuild": "node tools/patch-typhonjs-keyboard-manager.mjs",
     "build": "vite build",
-    "dev": "vite"
+    "dev": "vite",
+    "validate:release": "node tools/validate-release.mjs"
   }
 }
